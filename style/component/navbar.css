@@ -1,0 +1,189 @@
+/* NAVBAR GENERAL */
+/*FILA DE MENU WEB*/
+.navbar {
+    width: 100%;
+    border-bottom: 1px black solid;
+    padding: 15px 0px;
+    font-size: 0.8rem;
+}
+.sub-navbar {
+    display: none;
+}
+.menu-mobile {
+    display: none;
+}
+
+.btn-menu {
+    display: none;
+}
+.menu-web {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 120px 1fr;
+    align-items: center;
+}
+/*MENU DE PRODUCTOS*/
+.menu-product {
+    max-width: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-links {
+    margin: 0 5px 0 5px;
+}
+
+/*LOGOS*/
+.logo-group {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-size {
+    width: 25px;
+    height: 15px;
+}
+
+/*TAMAÑO DE LOGOS*/
+
+
+.logo-size-text {
+    width: fit-content;
+    height: 25px;
+}
+
+/*MENU DE CUENTAS Y CONFIGURACIÖN*/
+.menu-account {
+    max-width: 450px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list-item {
+
+}
+
+a {
+    transition: text-shadow .2s;
+    color: black;
+}
+
+a:hover {
+    text-shadow: 0 0 .1px #333, 0 0 1px #333;
+}
+
+
+
+/*IDIOMAS*/
+
+select {
+    border: none;
+    cursor: pointer;
+}
+
+.logo-search {
+    width: 15px;
+}
+
+.count {
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%;
+}
+
+@media (max-width :1000px) {
+    
+    /*Continuar desde aca con la navbar en responsive*/
+    .navbar {
+        display: flex;
+    }
+    .menu-web {
+        display: none;
+    }
+    .menu-mobile {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .menu-mobile-list {
+        display: none;
+        width: 200px;
+        height: 100vh;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding-left: 2%;
+        background-color: white;
+        border: 1px solid black;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .btn-close {
+        z-index: 1;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        border: none;
+        cursor: pointer;
+        margin-top: 2.5rem;
+    }
+
+    .menu-mobile-list.active {
+        display: flex;
+    }
+   
+
+    .btn-menu {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }.btn-menu:first-child {
+        margin-left: 2rem;
+    }
+    
+    
+    
+    /*LOGOS*/
+    /*TAMAÑO DE LOGOS*/
+    .logo-size-text {
+        width: fit-content;
+        height: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu-account-mobile {
+        max-width: 255px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;    
+    }
+    .image-mobile-menu {
+        width: 20px;
+        height: 20px;
+    }
+    .sub-navbar {
+        display: flex;
+        justify-content: space-between;
+        padding:6px;
+        border-bottom: 1px solid black;
+    }
+}

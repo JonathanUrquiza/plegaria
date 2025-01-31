@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="223.42285"
+   height="223.42139"
+   viewBox="0 0 223.42285 223.42139"
+   sodipodi:docname="pagina MOBILE plegaria.pdf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath246">
+      <path
+         d="M 26,356.5 H 1055 V 0.5 H 26 Z"
+         id="path246" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath248">
+      <path
+         d="M 0,1920 H 1080 V 0 H 0 Z"
+         transform="matrix(1.3333333,0,0,-1.3333333,5840,2560)"
+         id="path248" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath267">
+      <path
+         d="M 0,1920 H 1080 V 0 H 0 Z"
+         transform="translate(-973,-163.33298)"
+         id="path267" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath269">
+      <path
+         d="M 0,1920 H 1080 V 0 H 0 Z"
+         transform="translate(-935.8945,-166.15328)"
+         id="path269" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath271">
+      <path
+         d="M 0,1920 H 1080 V 0 H 0 Z"
+         transform="translate(-910.87502,-155.72168)"
+         id="path271" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:export-bgcolor="#ffffff00">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="223.42285"
+       height="223.42139"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="layer-MC0"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1"
+     transform="translate(-6913.9101,-2230.512)">
+    <g
+       opacity="0.220001"
+       id="g247"
+       clip-path="url(#clipPath248)">
+      <path
+         d="M 1055,0.5 H 26 v 356 h 1029 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,5840,2560)"
+         clip-path="url(#clipPath246)"
+         id="path247" />
+    </g>
+    <path
+       id="path266"
+       d="m 0,0 c 0,-46.272 -37.511,-83.783 -83.783,-83.783 -46.273,0 -83.784,37.511 -83.784,83.783 0,46.272 37.511,83.783 83.784,83.783 C -37.511,83.783 0,46.272 0,0"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,7137.3333,2342.2227)"
+       clip-path="url(#clipPath267)"
+       inkscape:export-filename="D:\plegaria componentes\assets\icons\whatsapp2.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path268"
+       d="m 0,0 c -0.628,24.803 -21.059,44.714 -46.208,44.714 -24.845,0 -45.103,-19.457 -46.185,-43.87 -0.021,-0.671 -0.043,-1.342 -0.043,-2.013 0,-8.679 2.424,-16.773 6.623,-23.698 l -8.333,-24.609 25.603,8.139 c 6.623,-3.637 14.241,-5.714 22.335,-5.714 25.539,0 46.229,20.539 46.229,45.882 0,0.39 0,0.779 -0.021,1.169 m -46.208,-39.735 c -7.898,0 -15.235,2.337 -21.383,6.383 l -14.932,-4.76 4.847,14.327 c -4.653,6.362 -7.401,14.176 -7.401,22.616 0,1.256 0.064,2.511 0.194,3.744 1.904,19.523 18.527,34.823 38.675,34.823 20.41,0 37.183,-15.69 38.741,-35.558 0.086,-0.996 0.13,-1.991 0.13,-3.009 0,-21.274 -17.444,-38.566 -38.871,-38.566"
+       style="fill:#fefefe;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,7087.8593,2338.4623)"
+       clip-path="url(#clipPath269)" />
+    <path
+       id="path270"
+       d="m 0,0 c -1.146,0.562 -6.709,3.289 -7.748,3.657 -1.039,0.39 -1.797,0.564 -2.554,-0.562 -0.758,-1.125 -2.943,-3.657 -3.593,-4.394 -0.67,-0.757 -1.319,-0.844 -2.466,-0.281 -1.125,0.563 -4.784,1.731 -9.113,5.584 -3.354,2.965 -5.648,6.644 -6.297,7.769 -0.65,1.125 -0.065,1.732 0.498,2.294 0.519,0.52 1.126,1.321 1.71,1.97 0.151,0.194 0.281,0.368 0.411,0.541 0.259,0.411 0.454,0.801 0.714,1.342 0.389,0.758 0.195,1.407 -0.086,1.97 -0.283,0.562 -2.554,6.103 -3.507,8.353 -0.93,2.251 -1.882,1.861 -2.554,1.861 -0.649,0 -1.406,0.109 -2.164,0.109 -0.757,0 -1.991,-0.281 -3.03,-1.407 -1.039,-1.125 -3.96,-3.852 -3.96,-9.393 0,-1.298 0.237,-2.597 0.584,-3.83 1.147,-3.961 3.614,-7.229 4.048,-7.792 0.561,-0.736 7.834,-12.466 19.347,-16.989 11.536,-4.481 11.536,-2.987 13.614,-2.792 2.077,0.174 6.709,2.705 7.639,5.345 0.953,2.62 0.953,4.871 0.671,5.346 C 1.883,-0.844 1.125,-0.562 0,0"
+       style="fill:#fefefe;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,7054.5,2352.3711)"
+       clip-path="url(#clipPath271)" />
+  </g>
+</svg>
