@@ -89,13 +89,19 @@ select {
 .logo-search {
     width: 15px;
 }
+.list-item--conter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .count {
+    padding-left: 0.4rem;
+    padding-top: 0.2rem;
+    margin: 0.2rem;
     width: 20px;
     height: 20px;
     color: white;
-    display: inline-block;
-    text-align: center;
     background-color: black;
     border-radius: 50%;
 }

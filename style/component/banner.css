@@ -2,6 +2,7 @@
     width: 100vw;
     background-color: #751515;
     color: white;
+    height: 35px;
 }
 .marquee{
     width: 100vw;
@@ -24,7 +25,7 @@
 .marquee-message {
     width: max-content;
     display: block;
-    padding: 0px 7px 0px 8px;
+    padding: 7px 7px 0px 8px;
     
 }
 
@@ -33,6 +34,7 @@
     .marquee {
         max-width: 100%;
         max-height: 30px;
+        padding: 7px 7px 0px 8px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         justify-content: space-between;    
@@ -48,6 +50,6 @@
         width: max-content;
     }
     .marquee-message {
-        padding: 0px 7px 0px 8px;
+        padding: 7px 7px 0px 8px;;
     }
 }

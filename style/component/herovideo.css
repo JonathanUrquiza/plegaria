@@ -1,70 +1,150 @@
-.hero-container iframe {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-}
-.logo-container {
-    width: auto;
-    bottom: 25px;
-    right:40px;
-    border: none;
-    border-radius: 50%;
-    position: fixed;
-}
-
-.w-logo {
-    background-color: white;
-    border-radius: 50%;
-    width: 60px;       
-}
-
-
 @media (max-width : 1000px) {
     .w-logo {
         background-color: white;
         border-radius: 50%;
-        width: 60px;       
+        width: 60px;
     }
-    .card-container {
-        width: 100vw;
+
+
+
+    .shop-links {
+        width: max-content;
+        height: max-content;
+        margin: 5rem;
+    }
+
+    .shop-links:first-child {
+        color: white;
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    .btn-shop {
+        width: 100px;
+        height: 45px;
+        border-radius: 25px;
+        text-align: center;
+        text-justify: center;
+        
+        border: 2px white solid;
+        color: white;
+        background-color: transparent;
+    }
+
+    .promo-container {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 15px;
-        align-items: center;
-        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px 5px;
+        justify-items: stretch;
+        align-items: stretch;
+        justify-content: start;
+        align-content: start;
+        grid-auto-columns: auto;
+        grid-auto-rows: auto;
+        grid-auto-flow: row;
     }
-    .card {
-        display: flex;
-        width: 100%;
+
+    .shop-promo-a {
+        width: fit-content;
         height: fit-content;
-        flex-direction: column;
-       
-        margin: 1px;
-       
+        grid-column: 0/0;
+        grid-row: 0/0;
+        align-self: center;
+        margin-top: 1.5rem;
+        
     }
-    .card-body {
-        width: 100%;
+
+    .shop-promo-b {
+        width: fit-content;
+        height: fit-content;
+        grid-column: 0/0;
+        grid-row: 0/0;
+        align-self: center;
+        justify-self: stretch;
+        margin-top: 1.5rem;
     }
-    .card-image img {
+
+    .big-promo {
+        width: auto;
+        height: auto;
+        grid-column: 1/4;
+        grid-row: 0/0;
+        justify-self: stretch;
+        align-self: stretch;
+    }
+    .promo-image-container img{
         width: 100%;
         display: flex;
         align-items: center;
-        
-        
+        margin-bottom: -120px;
     }
-    .card-footer {
-        max-width: fit-content;
+        
+       
+    
+
+    .w-logo {
+        background-color: white;
+        border-radius: 50%;
+        width: 60px;
+    }
+
+    .promo-links {
+        width: 100%;
+        position: relative;
+        color: white;
+        bottom: 5em;
+        width: fit-content;
         display: flex;
+        padding: 0 1rem;
         flex-direction: column;
+        justify-content: space-around;
     }
-    .colors {
+    .promo-links-title {
+        text-align: center;
+        font-size: 4rem;
+    }
+    .promo-shop-links {
+        width: 100%;
+        position: relative;
+        color: white;
+        bottom: 5em;
+        width: fit-content;
         display: flex;
-        flex-direction: row;
-    }
-    .color-example {
+        padding: 0 1rem;
+        flex-direction: column;
+        justify-content: space-around;
         
-        margin:0 2px;
     }
+
+}
+
+@media (min-width: 1001px) {
+
+
+    .hero-container iframe {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+
+    .logo-container {
+        width: auto;
+        bottom: 25px;
+        right: 40px;
+        border: none;
+        border-radius: 50%;
+        position: fixed;
+    }
+
+    .w-logo {
+        background-color: white;
+        border-radius: 50%;
+        width: 60px;
+    }
+
+
     .more-card {
         text-decoration: underline;
         font-weight: none;
@@ -74,68 +154,8 @@
         letter-spacing: 0.5rem;
         cursor: pointer;
     }
-    .shop-image {
-        width: 100%;
-        height: 100vh;
-        background-image: url('../../assets/images/collections/woman/d4f49835-2371-484c-b6df-296c2aad2f00-032feaed315ba5c5d317368842670839-480-0.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: flex-end;
-        margin-top: 1.5rem;
+
+    .promo-container {
+        display: none;
     }
-    .shop-links {
-        width: max-content;
-        height: max-content;
-        margin: 5rem;
-    }
-    .shop-links:first-child {
-        color: white;
-        text-align: center;
-        font-size: 6rem;
-    }
-    .btn-shop {
-        width: 150px;
-        height: 45px;
-        border-radius: 25px;
-        text-align: center;
-        text-justify: center;
-        font-size: 1.5rem;
-        border: 2px white solid;
-        color: white;
-        background-color: transparent;
-    }
-    .shop-promo-a {
-        width: 50vw;
-        height: 100%;
-        background-image: url('../../assets/images/collections/man/58a9f8f5-ffb8-4acc-a7ff-03b948008d14-265bdd1f04ad4791b617370471723060-480-0.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: flex-end;
-        margin-top: 1.5rem;
-    }
-    .shop-promo-b {
-        width: 50vw;
-        height: 100%;
-        background-image: url('../../assets/images/collections/man/a7bbb854-728f-415c-ac31-371cb7abe35c-dbb68276f1bdff19bd17369640798210-480-0.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 1.5rem;
-    }
-  
-    .w-logo {
-        background-color: white;
-        border-radius: 50%;
-        width: 60px;       
-    }
-    
-        
 }
