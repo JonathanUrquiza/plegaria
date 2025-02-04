@@ -6,9 +6,9 @@
 .carrousel {
     width: 300%;
     display: flex;
-    animation: slider 20s infinite linear;
+    animation: slider 40s infinite linear;
 }
 
 .carrousel-images {
-    width: 100%;
+    width: 100vw;
 }
