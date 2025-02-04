@@ -1,7 +1,7 @@
 @media screen and (max-width : 1000px) {
 
     .card-container {
-        width: 100%;
+        width: 98%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
@@ -9,10 +9,10 @@
     }
 
     .card {
+        width: 98%;
         display: flex;
         align-self: center;
         justify-self: center;
-        width: 98%;
         height: fit-content;
         flex-direction: column;
         padding: 0 1px 0 1px;
@@ -23,12 +23,8 @@
         width: 100%;
     }
 
-    .card-image img {
-        width: 98%;
-        align-self: center;
-        justify-self: center;
-        display: flex;
-        align-items: center;
+    .card-image {
+        width: 50vw;
     }
 
     .indicator-container {
@@ -78,14 +74,20 @@
         margin: 0 2px;
     }
 
+    .more-container {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;     
+    }
     .more-card {
+        width: fit-content;
+        cursor: pointer;
         text-decoration: underline;
         font-weight: none;
-        text-align: center;
         margin-top: 5%;
         font-size: 0.8rem;
-        letter-spacing: 0.5rem;
-        cursor: pointer;
     }
 }
 

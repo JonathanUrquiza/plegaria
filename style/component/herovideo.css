@@ -1,50 +1,3 @@
-.hero-container iframe {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-}
-
-.logo-container {
-    width: auto;
-    border: none;
-    border-radius: 50%;
-}
-
-.w-logo {
-    position: fixed;
-    background-color: white;
-    border-radius: 50%;
-    width: 60px;
-    bottom: 25px;
-    right: 40px;
-    z-index: 1;
-}
-
-.more-card {
-    text-decoration: underline;
-    font-weight: none;
-    text-align: center;
-    margin-top: 5%;
-    font-size: 0.8rem;
-    letter-spacing: 0.5rem;
-    cursor: pointer;
-}
-.logo-container {
-    width: 100%;
-    bottom: 0px;
-    right:  0px;
-    border: none;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 1;
-}
-.w-logo {
-    width: 60px;
-    position: fixed;
-    bottom: 8%;
-    right: 8%;
-}
-
 @media screen and (max-width : 1000px) {
 
 
@@ -62,12 +15,12 @@
     }
 
     .promo-container {
-        width: 98%;
-        height: max-content;
+        width: 100%;
+        height: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
-        gap: 5px 5px;
+        gap: 2px 2px;
         justify-items: center;
         align-items: center;
         justify-content: start;
@@ -78,37 +31,38 @@
     }
 
     .shop-promo-a {
-        width: 98%;
-        height: fit-content;
+        width: 100%;
+        height: 100%;
         grid-column: 0/0;
         grid-row: 0/0;
         align-self: center;
         justify-self: center;
-        margin-top: 1.5rem;
+
     }
 
     .shop-promo-b {
-        width: 98%;
+        width: 100%;
         height: fit-content;
         grid-column: 0/0;
         grid-row: 0/0;
         align-self: center;
         justify-self: center;
-        margin-top: 1.5rem;
+
     }
 
 
-    .promo-image-container img {
-        width: 98%;
+    .promo-image {
+        width: 100%;
         height: fit-content;
         display: flex;
+        justify-content: center;
         align-items: center;
         align-self: center;
         justify-self: center;
     }
 
     .big-promo-image-container {
-        width: 100%;
+        width: 98%;
         height: fit-content;
         display: flex;
         justify-content: stretch;
@@ -117,7 +71,7 @@
     }
 
     .promo-links-container {
-        width: 98%;
+        width: 50%;
         position: relative;
         bottom: 8em;
         justify-self: start;
@@ -135,7 +89,7 @@
 
     .big-promo {
         margin-top: 1em;
-        width: 98%;
+        width: 100%;
         height: auto;
         grid-column: 1/4;
         grid-row: 0/0;
@@ -143,15 +97,7 @@
         align-self: stretch;
 
     }
-
-    
-.w-logo {
-    width: 60px;
-    position: fixed;
-    bottom: 8%;
-    right: 8%;
-}
-  
+    .big-promo-image-container
 
     .promo-links {
         position: relative;
@@ -159,22 +105,24 @@
 
 }
 
-
 @media (min-width: 1001px) and (max-width :1445px) {
 
 
-    .hero-container iframe {
+    .hero-container {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         display: flex;
     }
 
 
     .w-logo {
         z-index: 1;
-        background-color: white;
-        border-radius: 50%;
         width: 60px;
+        border-radius: 50%;
+        position: fixed;
+        background-color: white;
+        bottom: 8%;
+        right: 8%;
     }
 
 
@@ -191,4 +139,43 @@
     .promo-container {
         display: none;
     }
+}
+
+.video-container {
+    width: 100%;
+}
+
+.video {
+    width: 100%;
+}
+
+.hero-container {
+    width: max-content;
+    height: 100%;
+    display: flex;
+}
+
+.arrivals-container {
+    width: 100%;
+}
+
+
+
+.more-card {
+    text-decoration: underline;
+    font-weight: none;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 0.5rem;
+    cursor: pointer;
+}
+
+.w-logo {
+    z-index: 1;
+    width: 60px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: white;
+    bottom: 8%;
+    right: 8%;
 }
