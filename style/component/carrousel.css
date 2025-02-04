@@ -5,10 +5,21 @@
 }
 .carrousel {
     width: 300%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     animation: slider 40s infinite linear;
 }
-
+.carrousel .list {
+    width: 100%;
+}
 .carrousel-images {
-    width: 100vw;
+    width: 100%;
+}
+.carrousel .maps{
+    width: 75%;
+    height: 100%;
+}
+.local {
+    display: flex;
+    flex-direction: row;
 }
