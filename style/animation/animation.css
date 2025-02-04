@@ -16,3 +16,26 @@
     }
     
 }
+@keyframes slider {
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform:translateX(0);
+    }
+    21%{
+        transform: translateX(-33.3%);
+    }
+    40%{
+        transform: translateX(-33.3%);
+    }
+    41%{
+        transform: translateX(-66.6%);
+    }
+    66% {
+        transform: translateX(-66.6%);
+    }
+    99%{
+        transform: translateX(0);
+    }
+}
