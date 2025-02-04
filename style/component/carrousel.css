@@ -1,0 +1,19 @@
+.carrousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+.carrousel {
+    width: 300%;
+}
+.carrousel ul {
+    display: flex;
+    flex-direction: row;
+
+}
+.carrousel li {
+    width: 100%;
+}
+.carrousel img {
+    width: 100%;
+    height: 100%;
+}
