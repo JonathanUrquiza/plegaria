@@ -1,10 +1,56 @@
-.footer-container   {
+footer   {
+    height: 100%;
+    max-width: 98%;
+    height: max-content;
     border-top: 1px solid black;
     padding-top: 3em;
     padding-bottom: 3em;
-    width: 98%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: stretch;
+    color: #751515;
+    
 }
+
+@media screen and (max-width :1000px) {
+    
+    .footer-container {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr auto 1fr;
+        gap: 10px 15px;
+        justify-items: stretch;
+        align-items: stretch;
+        justify-content: start;
+        align-content: start;
+    }
+    footer > div {
+        text-align: center;
+        height: 100%;
+    }
+    .logo-footer {
+        width: 150px;
+        padding:  0 25px;
+        align-self: center;
+        
+    }
+    input::placeholder {
+        color: #751515;
+    }
+
+
+    .input-email {
+        height: 1.5em;
+        border: 1px #751515 solid;
+        padding: 1em;
+    }
+    .btn-join {
+        color : white;
+        padding: 0.5em 1.5em;
+        background-color: #751515;
+        border: none;
+        text-align: center;
+    }
+}
+
+    
+
+    

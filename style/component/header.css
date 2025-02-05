@@ -1,0 +1,16 @@
+.header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.bg-custom {
+    width: 100%;
+    overflow: hidden;
+    background-color: #751515;
+    color: white;
+    height: 35px;
+}
+.navbar, .sub-navbar {
+    background-color: white;
+}

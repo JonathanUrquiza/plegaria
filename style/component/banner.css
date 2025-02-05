@@ -1,10 +1,4 @@
-.bg-custom {
-    width: 100%;
-    overflow: hidden;
-    background-color: #751515;
-    color: white;
-    height: 35px;
-}
+
 .marquee{
     overflow: hidden;
     width: 100%;

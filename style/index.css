@@ -1,6 +1,7 @@
 @import url(normalize/normailize.css);
 @import url(component/banner.css);
 @import url(animation/animation.css);
+@import url(component/header.css);
 @import url(component/logo.css);
 @import url(component/navbar.css);
 @import url(component/herovideo.css);

@@ -6,6 +6,7 @@
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         justify-content: center;
+        margin-top: 2em;
     }
 
     .card {
@@ -15,7 +16,7 @@
         justify-self: center;
         height: fit-content;
         flex-direction: column;
-        padding: 0 1px 0 1px;
+        padding: 2px;
     }
 
 
@@ -25,6 +26,7 @@
 
     .card-image {
         width: 50vw;
+        padding: 3px;
     }
 
     .indicator-container {
@@ -75,19 +77,20 @@
     }
 
     .more-container {
-        width: fit-content;
+        width: 97%;
+        height: 100px;
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: center;     
+        text-align: center;
+        align-self: center;
+        
     }
     .more-card {
         width: fit-content;
         cursor: pointer;
         text-decoration: underline;
         font-weight: none;
-        margin-top: 5%;
-        font-size: 0.8rem;
     }
 }
 
@@ -223,16 +226,13 @@
     flex-direction: column;
     padding: 0 0.5rem;
 }
-
 .colors {
     display: flex;
     flex-direction: row;
 }
-
 .color-example {
     margin: 0 2px;
 }
-
 .size-container {
     width: 100vw;
     height: 15vh;
@@ -244,11 +244,9 @@
     z-index: 1;
 
 }
-
 .size-container ul {
     animation: fade .7s;
 }
-
 .size-list {
     width: 100%;
     display: flex;
@@ -261,10 +259,6 @@
 .size-container.active {
     display: flex;
 }
-
-
-
-
 .size-item--disable {
     color: gray;
 }

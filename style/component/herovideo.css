@@ -1,18 +1,7 @@
 @media screen and (max-width : 1000px) {
 
 
-
-    .btn-shop {
-        width: max-content;
-        height: max-content;
-        border-radius: 25px;
-        text-align: center;
-        text-justify: center;
-        border: 2px white solid;
-        color: white;
-        padding: 10px;
-        background-color: transparent;
-    }
+ 
 
     .promo-container {
         width: 100%;
@@ -83,7 +72,17 @@
     }
 
     .promo-links-title {
-        font-size: 4rem;
+        font-size: 2.5em;
+    }
+    .btn-shop {
+        width:max-content ;
+        height: fit-content;
+        border-radius: 15px;
+        border: 2px white solid;
+        color: white;
+        padding: 1px 10px;
+        background-color: transparent;
+
     }
 
     .big-promo {
@@ -146,6 +145,7 @@
 
 .video-container {
     width: 100%;
+    margin-bottom: 1.5em;
 }
 
 .video {
@@ -160,8 +160,11 @@
 
 .arrivals-container {
     width: 100%;
+    margin-top: 1.5em;
 }
-
+.arrivals-text {
+    padding-left: 0.9em;
+}
 
 
 .more-card {

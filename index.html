@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
 
         <a href="ofertas">
             <div class="bg-custom">
@@ -528,7 +528,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="more-continer">
+                <div class="more-container">
                     <a class="more-card" href="">
                         VER TODOS
                     </a>
@@ -581,11 +581,14 @@
 
         </section>
         <section class="carrousel-container">
+            <div class="arrivals-text">
+                <h4>LOCALES</h4>
+            </div>
             <ul class="carrousel">
                 <li class="list">
 
                     <div>
-                        <img class="carrousel-images" src="assets/images/locales/2017-11-22.jpg" alt="">
+                        <img class="carrousel-images" src="assets/images/locales/unicenter.webp" alt="">
                     </div>
 
                     <div class="local">
@@ -593,16 +596,18 @@
                             <h2>TEXTO</h2>
                             <p>Texto</p>
                         </div>
-                        <iframe class="maps"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.41078987069!2d-58.438984022905984!3d-34.59377255697536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca758fc12cf3%3A0x139d92c7d978d1a9!2sPlegaria!5e0!3m2!1ses-419!2sar!4v1738696631864!5m2!1ses-419!2sar"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="adress">
+                            <p>Unicenter local 2119 2DO PISO</p>    
+                        </div>
                     </div>
+
+
 
                 </li>
                 <li class="list">
 
                     <div>
-                        <img class="carrousel-images" src="assets/images/locales/2017-11-22.jpg" alt="">
+                        <img class="carrousel-images" src="assets/images/locales/abasto.webp" alt="">
                     </div>
 
                     <div class="local">
@@ -610,16 +615,17 @@
                             <h2>TEXTO</h2>
                             <p>Texto</p>
                         </div>
-                        <iframe class="maps"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4668635941766!2d-58.50066398736006!3d-34.61764055812303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9d090f4d559%3A0xb873af4a8a06388b!2sPLEGARIA!5e0!3m2!1ses-419!2sar!4v1738696696851!5m2!1ses-419!2sar"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="adress">
+                            <p>ABASTO LOCAL 19 SUBSUELO</p>    
+                        </div>
+                        
                     </div>
 
                 </li>
                 <li>
 
                     <div class="list">
-                        <img class="carrousel-images" src="assets/images/locales/2017-11-22.jpg" alt="">
+                        <img class="carrousel-images" src="assets/images/locales/dot.webp" alt="">
                     </div>
 
                     <div class="local">
@@ -627,9 +633,10 @@
                             <h2>TEXTO</h2>
                             <p>Texto</p>
                         </div>
-                        <iframe class="maps"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0654220000542!2d-58.41266708736057!3d-34.602507157323664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbc2d984fbff%3A0x9675444f56e0979a!2sPLEGARIA%20Abasto!5e0!3m2!1ses-419!2sar!4v1738696787349!5m2!1ses-419!2sar"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="adress">
+                            <p>DOT LOCAL 16 "DO PISO</p>    
+                        </div>
+                        
                     </div>
 
                 </li>
@@ -638,20 +645,26 @@
     </main>
     <footer class="footer-container">
         <div>
-            <img width="100px"  src="assets/icons/path12.png" alt="" srcset="">
+            <img class="logo-footer"  src="assets/icons/plegaria-red..png" alt="" srcset="">
         </div>
         <div>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
+            <ul>
+                <li>Texto</li>
+                <li>Texto</li>
+                <li>Texto</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Texto</h2>
+            <p>Texto</p>
         </div>
         <div>
             <form action="" method="post">
                 <label for="email">
-                    <input type="email" name="email" id="email">
+                    <input class="input-email" type="email" name="email" id="email" placeholder="Email">
                 </label>
                 <label for="join">
-                    <button type="submit">JOIN</button>
+                    <button class="btn-join" type="submit">JOIN</button>
                 </label>
             </form>
 
