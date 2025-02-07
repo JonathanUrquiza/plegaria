@@ -1,6 +1,5 @@
 
 .marquee{
-    overflow: hidden;
     width: 100%;
     max-height: 30px;
     display: flex;
@@ -21,8 +20,8 @@
 .marquee-message {
     width: max-content;
     display: block;
-    padding: 7px 7px 0px 8px;
-    
+    padding: 7px 0px 0px 8px;
+   
 }
 
 

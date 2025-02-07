@@ -6,9 +6,11 @@
     padding: 15px 0px;
     font-size: 0.8rem;
 }
+
 .sub-navbar {
     display: none;
 }
+
 .menu-mobile {
     display: none;
 }
@@ -16,12 +18,14 @@
 .btn-menu {
     display: none;
 }
+
 .menu-web {
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 120px 1fr;
     align-items: center;
 }
+
 /*MENU DE PRODUCTOS*/
 .menu-product {
     max-width: 650px;
@@ -30,8 +34,10 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 .navbar-links {
     margin: 0 5px 0 5px;
+    cursor: pointer;
 }
 
 /*LOGOS*/
@@ -57,25 +63,14 @@
 
 /*MENU DE CUENTAS Y CONFIGURACIÖN*/
 .menu-account {
-    max-width: 450px;
-    margin-left: 150px;
+    width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.list-item {
 
-}
-
-a {
-    transition: text-shadow .2s;
-    color: black;
-}
-
-a:hover {
-    text-shadow: 0 0 .1px #333, 0 0 1px #333;
-}
 
 
 
@@ -89,6 +84,7 @@ select {
 .logo-search {
     width: 15px;
 }
+
 .list-item--conter {
     display: flex;
     flex-direction: row;
@@ -106,68 +102,178 @@ select {
     border-radius: 50%;
 }
 
+.ocultar {
+    position: relative;
+    height: max-content;
+    display: none;
+
+}
+
+
+.shop-submenu {
+    top: 95px;
+    z-index: 1;
+    height: max-content;
+    width: 98.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 2em 0;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.shop-undermenu {
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.title-undermenu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-links:hover .ocultar {
+    display: flex;
+
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+}
+
+.btn:hover {
+    text-shadow: 0 0 .1px #333, 0 0 1px #333;
+    transition: text-shadow .2s;
+    color: black;
+    cursor: pointer;
+}
+
+.ocultar.active {
+    display: flex;
+}
+
 @media (max-width :1000px) {
-    
+
     /*Continuar desde aca con la navbar en responsive*/
     .navbar {
+
         display: flex;
     }
+
     .menu-web {
         display: none;
     }
+
     .menu-mobile {
         width: 100%;
+        height: fit-content;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        justify-content: space-around;
-        align-items: center;
+        grid-template-rows: 1fr;
+        gap: 0 1px;
+        justify-items: stretch;
+        align-items: stretch;
+        justify-content: center;
+        align-content: stretch;
     }
 
-
-    .menu-mobile-list {
+    .menu {
+        width: 75%;
         display: none;
-        width: 200px;
         height: 100vh;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        padding-left: 2%;
         background-color: white;
         border: 1px solid black;
         position: absolute;
         top: 0;
         left: 0;
+        padding: 4em 1em;
+    }
+
+
+    .menu-mobile-list {
+        gap: 25px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    .list li {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
     }
 
     .btn-close {
         z-index: 1;
-        width: 30px;
-        height: 30px;
-        display: flex;
-        border: none;
+        width: 25px;
+        height: 25px;
         cursor: pointer;
-        margin-top: 2.5rem;
+        justify-self: center;
+        align-self: center;
+        border: none;
     }
 
-    .menu-mobile-list.active {
-        display: flex;
+    .btn-close--image {
+        align-self: center;
+        justify-self: center;
     }
-   
+
+
+    .menu.active {
+        display: flex;
+        width: 75%;
+    }
+
+
 
     .btn-menu {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
+        justify-self: center;
+        align-self: stretch;
         display: flex;
-        border: none;
         background-color: transparent;
         cursor: pointer;
-    }.btn-menu:first-child {
-        margin-left: 2rem;
     }
-    
-    
-    
+
+    .buttom-menu {
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .btn-menu:first-child {
+        margin-left: 2rem;
+        align-items: center;
+        justify-self: start;
+    }
+
+
+
     /*LOGOS*/
+    .logo-group {
+        justify-self: stretch;
+        align-self: stretch;
+    }
+
     /*TAMAÑO DE LOGOS*/
     .logo-size-text {
         width: fit-content;
@@ -176,20 +282,53 @@ select {
         justify-content: flex-end;
     }
 
-    .menu-account-mobile {
-        max-width: 255px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;    
+    .container-account {
+        width: 100%;
+        align-self: stretch;
+        justify-self: stretch;
     }
+
+    .menu-account-mobile {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        gap: 0 2px;
+        justify-items: stretch;
+        align-items: center;
+        justify-content: start;
+        align-content: center;
+    }
+
     .image-mobile-menu {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .image-mobile-menu--acount {
+        justify-self: start;
+        align-self: center;
+    }
+
+    .image-mobile {
         width: 20px;
         height: 20px;
     }
+
+    .span {
+        height: 100%;
+        border: 1px solid black;
+        display: inline-block;
+        align-items: center;
+        justify-self: center;
+    }
+
+
     .sub-navbar {
         display: flex;
         justify-content: space-between;
-        padding:6px;
+        padding: 6px;
         border-bottom: 1px solid black;
     }
 }

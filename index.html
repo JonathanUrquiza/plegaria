@@ -25,12 +25,71 @@
         </a>
         <nav class="navbar">
             <div class="menu-web">
-                <div>
+                <div class="sub-menu">
                     <ul class="menu-product">
-                        <li class="navbar-links"><a href="">TIENDA</a></li>
-                        <li class="navbar-links"><a href="">COLLECCIONES</a></li>
-                        <li class="navbar-links"><a href="">NEW ARRIVALS</a></li>
-                        <li class="navbar-links"><a href="">SOBRE NOSOTROS</a></li>
+                        <li class="navbar-links tienda"><button class="btn btn-tienda" type="button">TIENDA</button>
+                        </li>
+                        <li class="navbar-links collection"><button class="btn btn-collections"
+                                type="button">COLLECCIONES</button></li>
+                        <li class="navbar-links arrivals"><button class="btn btn-arrivals" type="button">NEW
+                                ARRIVALS</button></li>
+                        <li class="navbar-links about"><button class="btn btn-about" type="button">SOBRE
+                                NOSOTROS</button></li>
+                    </ul>
+                    <ul>
+                        <li class="ocultar" id="shop-submenu">
+                            <div class="shop-undermenu">
+                                <ul class="title-undermenu">
+                                    <li>BEST SELLER</li>
+                                    <li>ROPA</li>
+                                    <li>MUJER</li>
+                                    <li>ACCESORIOS</li>
+                                </ul>
+                            </div>
+                            <div class="shop-undermenu">
+                                <ul>
+                                    <li>NOVEDADES</li>
+                                    <li>BACK IN STOCK</li>
+                                    <li>MUJER</li>
+                                    <li>GIFT CARD</li>
+                                    <li></li>
+                                </ul>
+                                <ul>
+                                    <li>VER TODO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                </ul>
+                                <ul>
+                                    <li>VER TODO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                </ul>
+                                <ul>
+                                    <li>VER TODO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                    <li>TEXTO</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="ocultar" id="collection-submenu">
+                            collections
+                        </li>
+                        <li class="ocultar" id="arrivals-submenu">
+                            arrivals
+                        </li>
+                        <li class="ocultar" id="about-submenu">
+                            about Us
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -43,7 +102,7 @@
                 </div>
                 <div>
                     <ul class="menu-account">
-                        <li class="">
+                        <li class="navbar-links">
                             <form action="" method="get">
                                 <select class="language" id="language" name="language">
                                     <option class="option" value="esp">ESP</option>
@@ -54,14 +113,14 @@
                             </form>
                         </li>
 
-                        <li class="list-item">
-                            <a href="">CUENTA</a>
+                        <li class="navbar-links">
+                            <button class="btn btn-account" type="button"> CUENTA</button>
                         </li>
-                        <li class="list-item">
+                        <li class="navbar-links">
                             <img class="logo-search" src="assets/icons/path22.png" alt="">
                         </li>
-                        <li class="list-item list-item--conter">
-                            <a href="">CARRITO</a>
+                        <li class="navbar-links list-item--conter">
+                            <button class="btn btn-cart" type="button"> CARRITO </button>
                             <p class="count">0</p>
                         </li>
                     </ul>
@@ -69,18 +128,22 @@
             </div>
 
 
-            <div class="menu-mobile">
-                <div>
-                    <button class="btn-menu">
+            <ul class="menu-mobile">
+
+                <li class="btn-menu">
+                    <button class="buttom-menu">
                         <img src="assets/icons/list.svg" width="30px" height="30px" alt="" srcset="">
                     </button>
-                    <div class="menu-mobile">
-                        <div class="menu-mobile-list">
-                            <button class="btn-close">
-                                <img src="assets/icons/path505.png" width="30px" height="30px" alt="" srcset="">
-                            </button>
-                            <div>
-                                <ul>
+                    <div class="menu">
+                        <ul class="menu-mobile-list">
+                            <li>
+                                <button class="btn-close">
+                                    <img class="btn-close--image" src="assets/icons/path505.png" width="100%" height="100%" alt="" srcset="">
+                                </button>
+                            </li>
+                            
+                            <li>
+                                <ul class="list">
                                     <li>NOVEDADES</li>
                                     <li>BEST SELLERS</li>
                                     <li>BACK IN STOCK</li>
@@ -89,16 +152,18 @@
                                     <li>MUJER +</li>
                                     <li>ACCESORIOS +</li>
                                 </ul>
-                            </div>
-                            <div>
-                                <ul>
+                            </li>
+                            
+                            <li>
+                                <ul class="list">
                                     <li>COLLECIONES</li>
                                     <li>NEW ARRIVALS</li>
                                     <li>SOBRE NOSTROS</li>
                                 </ul>
-                            </div>
-                            <div>
-                                <ul>
+                            </li>
+                            
+                            <li>
+                                <ul class="list list-lang">
                                     <li>
                                         CUENTA
                                     </li>
@@ -109,27 +174,27 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div>
-                    <ul class="logo-group">
-                        <li>
-                            <img class="logo-size-text" src="assets/icons/path12.png" alt="" srcset="">
-                        </li>
-                    </ul>
-                </div>
-                <div class="container-account">
-                    <ul class="menu-account-mobile">
-                        <li><img class="image-mobile-menu" src="assets/icons/path38.png"></a></li>
-                        <li><img class="image-mobile-menu" src="assets/icons/path22.png"></a></li>
-                        <li><img class="image-mobile-menu" src="assets/icons/path34.png"></a></li>
-                        <li>(0)</li>
-                    </ul>
+                </li>
 
-                </div>
-            </div>
+                <li class="logo-group">
+                    <img class="logo-size-text" src="assets/icons/path12.png" alt="" srcset="">
+                </li>
+
+                <li class="container-account">
+                    <ul class="menu-account-mobile">
+                        <li class="image-mobile-menu"><img class="image-mobile" src="assets/icons/path38.png"></a></li>
+                        <li class="image-mobile-menu"><img class="image-mobile" src="assets/icons/path22.png"></a></li>
+                        <li class="image-mobile-menu"><img class="image-mobile" src="assets/icons/path34.png"></a></li>
+                        <li class="image-mobile-menu image-mobile-menu--acount">(0)</a></li>
+                    </ul>
+                    
+
+                </li>
+
+            </ul>
         </nav>
         <ul class="sub-navbar">
             <li>TEXTO</li>
@@ -142,7 +207,7 @@
     <main>
         <section class="video-container">
             <picture>
-                <iframe class="video" width="560" height="315"
+                <iframe class="video" width="100%" height="100%"
                     src="https://www.youtube.com/embed/t8OZPJfpcTM?si=j4YwXn08Zw2xr8e_" title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -150,6 +215,7 @@
             </picture>
             <img class="w-logo" src="assets/icons/whatsapp (1).png" alt="" srcset="">
         </section>
+
         <section class="hero-container">
             <article class="arrivals-container">
                 <div class="arrivals-text">
@@ -535,6 +601,7 @@
                 </div>
             </article>
         </section>
+
         <section class="promo-container">
             <article class="shop-promo-a">
 
@@ -576,17 +643,51 @@
 
             </article>
 
+        </section>
 
-            </article>
+        <section class="banner-container">
+            <img class="banner-images" src="assets/images/locales/unicenter.webp" alt="" srcset="">
+            <div class="banner-link">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <h3>Ver tienda</h3>
+                </a>
+            </div>
+        </section>
+
+        <section class="hero-container">
+            <div class="grid-container">
+
+                <article class="card">
+                    <div class="card-body">
+                        <img class="card-image" src="assets/images/collections/man/conjunto-musculoza-front.webp" alt=""
+                            srcset="">
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-body">
+                        <img class="card-image"
+                            src="assets/images/collections/woman/c4a466b0-e74b-47bc-9bf5-2307bd99e370-fc6ba0b3e4b3a4e97a17369568401900-640-0.webp"
+                            alt="" srcset="">
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-body">
+                        <img class="card-image"
+                            src="assets/images/collections/woman/502fe2ea-672b-4e18-8473-351e9dda99ed-74c6f868f670de0fc717368844080826-480-0.webp"
+                            alt="" srcset="">
+                    </div>
+                </article>
+            </div>
 
         </section>
+
         <section class="carrousel-container">
             <div class="arrivals-text">
                 <h4>LOCALES</h4>
             </div>
             <ul class="carrousel">
-                <li class="list">
 
+                <li class="list">
                     <div>
                         <img class="carrousel-images" src="assets/images/locales/unicenter.webp" alt="">
                     </div>
@@ -597,15 +698,12 @@
                             <p>Texto</p>
                         </div>
                         <div class="adress">
-                            <p>Unicenter local 2119 2DO PISO</p>    
+                            <p>Unicenter local 2119 2DO PISO</p>
                         </div>
                     </div>
-
-
-
                 </li>
-                <li class="list">
 
+                <li class="list">
                     <div>
                         <img class="carrousel-images" src="assets/images/locales/abasto.webp" alt="">
                     </div>
@@ -616,15 +714,14 @@
                             <p>Texto</p>
                         </div>
                         <div class="adress">
-                            <p>ABASTO LOCAL 19 SUBSUELO</p>    
+                            <p>ABASTO LOCAL 19 SUBSUELO</p>
                         </div>
-                        
+
                     </div>
-
                 </li>
-                <li>
 
-                    <div class="list">
+                <li class="list">
+                    <div>
                         <img class="carrousel-images" src="assets/images/locales/dot.webp" alt="">
                     </div>
 
@@ -634,9 +731,9 @@
                             <p>Texto</p>
                         </div>
                         <div class="adress">
-                            <p>DOT LOCAL 16 "DO PISO</p>    
+                            <p>DOT LOCAL 16 "DO PISO</p>
                         </div>
-                        
+
                     </div>
 
                 </li>
@@ -645,7 +742,7 @@
     </main>
     <footer class="footer-container">
         <div>
-            <img class="logo-footer"  src="assets/icons/plegaria-red..png" alt="" srcset="">
+            <img class="logo-footer" src="assets/icons/plegaria-red..png" alt="" srcset="">
         </div>
         <div>
             <ul>
@@ -670,15 +767,6 @@
 
         </div>
     </footer>
-    <script>
-        document.querySelector('.btn-menu').addEventListener('click', function () {
-            document.querySelector('.menu-mobile-list').classList.toggle('active');
-        });
-        document.querySelector('.btn-close').addEventListener('click', () => {
-            document.querySelector('.menu-mobile-list').classList.toggle('active');
-        });
-
-    </script>
     <script src="js/index.js">logicadelapagina</script>
 </body>
 </body>

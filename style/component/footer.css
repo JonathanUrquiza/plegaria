@@ -1,12 +1,14 @@
 footer   {
     height: 100%;
-    max-width: 98%;
+    width: 98%;
     height: max-content;
     border-top: 1px solid black;
     padding-top: 3em;
     padding-bottom: 3em;
     color: #751515;
-    
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 
 @media screen and (max-width :1000px) {
@@ -31,6 +33,37 @@ footer   {
         padding:  0 25px;
         align-self: center;
         
+    }
+    input::placeholder {
+        color: #751515;
+    }
+
+
+    .input-email {
+        height: 1.5em;
+        border: 1px #751515 solid;
+        padding: 1em;
+    }
+    .btn-join {
+        color : white;
+        padding: 0.5em 1.5em;
+        background-color: #751515;
+        border: none;
+        text-align: center;
+    }
+}
+@media screen and (min-width : 1001px) {
+    
+    .footer-container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;    
+    }
+    .logo-footer {
+        width: 150px;
+        align-self: center;
     }
     input::placeholder {
         color: #751515;

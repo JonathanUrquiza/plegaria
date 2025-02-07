@@ -63,6 +63,7 @@
         border: 1px solid transparent;
         background-color: transparent;
         cursor: pointer;
+        font-size: 1.5rem;
         
     }
 
@@ -92,13 +93,64 @@
         text-decoration: underline;
         font-weight: none;
     }
+    .card-footer--detail {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0.5rem;
+    }
+    .colors {
+        display: flex;
+        flex-direction: row;
+    }
+    .color-example {
+        margin: 0 2px;
+    }
+    .size-container {
+        width: 100vw;
+        height: 15vh;
+        display: none;
+        position: fixed;
+        bottom: 0px;
+        right:  0px;
+        background-color: white;
+        z-index: 1;
+    
+    }
+    .size-container ul {
+        animation: fade .7s;
+    }
+    .size-list {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+    .size-container.active {
+        display: flex;
+    }
+    .size-item--disable {
+        color: gray;
+    }
+
+
 }
 
 @media (min-width : 1001px) {
+    .card-container {
+        padding: 10px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px 20px;
+    }
+    
     .card {
         height: auto;
         width: 100%;
-        border: 1px solid gray;
         display: flex;
         height: fit-content;
         flex-direction: column;
@@ -110,10 +162,14 @@
 
 
     .card-body {
+        position: relative;
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
-    .card-image img {
+    .card-image {
+        height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
@@ -122,24 +178,25 @@
 
     .indicator-container {
         width: 100%;
-        position: relative;
-        bottom: 8rem;
-        justify-self: center;
+        height: 100%;
+        position: absolute;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .image-indicator {
-        position: relative;
-        opacity: 0.5;
+        opacity: 0.3;
     }
 
     .image-indicator--A {
+        height: 20px;
         rotate: 90deg;
 
     }
 
     .image-indicator--B {
+        height: 20px;
         rotate: -90deg;
     }
 
@@ -147,8 +204,11 @@
         padding: 0.8rem;
         max-width: 100%;
         display: flex;
-        position: relative;
+        flex-direction: column;
 
+    }
+    .btn-option{
+        display: none;
     }
 
     .card-footer--detail {
@@ -156,7 +216,9 @@
         flex-direction: column;
         padding: 0 0.5rem;
     }
-
+    .more-card {
+        display: none;
+    }
 
     .colors {
         display: flex;
@@ -170,6 +232,10 @@
     .size-container {
         width: 100%;
         display: none;
+        background-color: white;
+        position: relative;
+        right: 0;
+        bottom: 0;
     }
 
     .size-container ul {
@@ -196,18 +262,10 @@
 
     .size-item--disable {
         color: gray;
-    }
+   }
 }
 
-@media (min-width :1000px) and (max-width : 1245px) {
-    .card-container {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: .5em;
-        align-items: center;
-    }
-}
+
 
 @media (min-width : 1246px) {
 
@@ -221,44 +279,3 @@
     }
 }
 
-.card-footer--detail {
-    display: flex;
-    flex-direction: column;
-    padding: 0 0.5rem;
-}
-.colors {
-    display: flex;
-    flex-direction: row;
-}
-.color-example {
-    margin: 0 2px;
-}
-.size-container {
-    width: 100vw;
-    height: 15vh;
-    display: none;
-    position: fixed;
-    bottom: 0px;
-    right:  0px;
-    background-color: white;
-    z-index: 1;
-
-}
-.size-container ul {
-    animation: fade .7s;
-}
-.size-list {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 1.5rem;
-    padding: 1rem 0;
-}
-.size-container.active {
-    display: flex;
-}
-.size-item--disable {
-    color: gray;
-}

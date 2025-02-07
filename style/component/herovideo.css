@@ -1,9 +1,12 @@
 @media screen and (max-width : 1000px) {
 
-
- 
-
+    .video-container {
+        width: 100%;
+        height: 100%;
+    }
+    
     .promo-container {
+
         width: 100%;
         height: 100%;
         display: grid;
@@ -30,7 +33,7 @@
 
     .shop-promo-b {
         width: 100%;
-        height: fit-content;
+        height: 100%;
         grid-column: 0/0;
         grid-row: 0/0;
         align-self: center;
@@ -41,12 +44,17 @@
 
     .promo-image {
         width: 100%;
-        height: fit-content;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         align-self: center;
         justify-self: center;
+
+    }
+
+    .big-promo {
+        padding: 1.5px;
     }
 
     .big-promo-image-container {
@@ -74,8 +82,9 @@
     .promo-links-title {
         font-size: 2.5em;
     }
+
     .btn-shop {
-        width:max-content ;
+        width: max-content;
         height: fit-content;
         border-radius: 15px;
         border: 2px white solid;
@@ -86,7 +95,7 @@
     }
 
     .big-promo {
-        
+
         width: 100%;
         height: 100%;
         grid-column: 1/4;
@@ -95,6 +104,7 @@
         align-self: stretch;
 
     }
+
     .big-promo-image-container {
         width: 100%;
         height: 98%;
@@ -104,7 +114,12 @@
     .promo-links {
         position: relative;
     }
-
+    .banner-container{
+        display: none;
+    }
+    .grid-container {
+        display: none;
+    }
 }
 
 @media (min-width: 1001px) and (max-width :1445px) {
@@ -138,22 +153,22 @@
         cursor: pointer;
     }
 
-    .promo-container {
-        display: none;
-    }
+
 }
 
 .video-container {
     width: 100%;
+    height: 100%;
     margin-bottom: 1.5em;
 }
 
 .video {
     width: 100%;
+    height: 100vh;
 }
 
 .hero-container {
-    width: max-content;
+    width: 100%;
     height: 100%;
     display: flex;
 }
@@ -162,20 +177,22 @@
     width: 100%;
     margin-top: 1.5em;
 }
-.arrivals-text {
-    padding-left: 0.9em;
-}
 
+.promo-container {
+    display: none;
+}
 
 .more-card {
     text-decoration: underline;
     font-weight: none;
     text-align: center;
     font-size: 0.8rem;
-    letter-spacing: 0.5rem;
+
     cursor: pointer;
 }
-
+.arrivals-text {
+    padding-left: 25px;
+}
 .w-logo {
     z-index: 1;
     width: 60px;
@@ -184,4 +201,31 @@
     background-color: white;
     bottom: 8%;
     right: 8%;
+}
+.banner-container{
+    width: 100%;
+    position: relative;
+}
+.banner-images {
+    width: 100%;
+    height: 100%;
+}
+.banner-link{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50% ;
+    left: 0;
+}
+.banner-link a {
+    font-size: 5rem;
+    color: white;
+}
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    padding: 1em;
 }
