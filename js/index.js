@@ -3,6 +3,7 @@ const btnsMenu = document.querySelectorAll('.btn');
 const btnMobile =document.querySelector('.btn-menu');
 const btnClose = document.querySelector('.btn-close');
 const ziseContainer = document.querySelector('.size-container');
+const footerContainer = document.querySelector('footer-container');
 const carrousel = document.querySelector('.carrouse');
 const marcador = document.querySelectorAll('.marcador');
 const menu = document.querySelector('.menu');
@@ -10,6 +11,7 @@ const tiendaMenu = document.getElementById('shop-submenu'),
  collections = document.getElementById('collection-submenu'),
  arrivals = document.getElementById('arrivals-submenu'),
  aboutUs = document.getElementById('about-submenu');
+ 
 let condition = "open";
 //-------------------------------------------------------------//
 
@@ -19,8 +21,12 @@ btnArray.forEach((btnShop) => {
     btnShop.addEventListener('click', () => {
         ziseContainer.classList.toggle('active')
     })
+    
 })
+ziseContainer.addEventListener('click', ()=> {
+    ziseContainer.classList.toggle('active')
 
+})
 
 btnMobile.addEventListener('click', () => {
     menu.classList.toggle('active');
@@ -28,7 +34,6 @@ btnMobile.addEventListener('click', () => {
 btnClose.addEventListener('click', () => {
     menu.classList.add('ocultar');
 });
-
 
 
 
