@@ -1,3 +1,4 @@
+const accountAccess = document.getElementById('acount-access');
 const btnArray = document.querySelectorAll('.btn-option');
 const btnsMenu = document.querySelectorAll('.btn');
 const btnMobile =document.querySelector('.btn-menu');
@@ -35,7 +36,11 @@ btnClose.addEventListener('click', () => {
     menu.classList.add('ocultar');
 });
 
-
+accountAccess.addEventListener('click', () => {
+    const login = document.getElementById('login')
+    const app = document.getElementById('app')
+    app.innerHTML(login)
+})
 
 
 

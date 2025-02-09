@@ -228,7 +228,32 @@ select {
         gap: 10px;
         margin-top: 25px;
     }
+    .list-items:hover {
+        text-shadow: 0 0 .1px #333, 0 0 1px #333;
+        transition: text-shadow .2s;
+        color: black;
+        cursor: pointer;
+    }
+    .list-lang {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    .idioma-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: start;
+        gap: 15px;
+    }
+    .idioma{
+        align-self: center;
+        width: 100%;
+    }
     .btn-close {
         z-index: 1;
         width: 25px;
