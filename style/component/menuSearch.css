@@ -1,0 +1,31 @@
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.search {
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 1fr;
+    gap: 0 15px;
+    justify-items: stretch;
+    align-items: stretch;    
+    justify-content: start;
+    padding: 5px;
+}
+.search-item {
+    width: 100%;
+    align-self: center;
+    justify-self: start;
+}
+
+.search-icon{
+    width: 20px;
+    align-self: center;
+    justify-self: center;
+}
+.search-input {
+    width: 100%;
+    border: none;
+}
