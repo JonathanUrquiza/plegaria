@@ -73,8 +73,8 @@ const btnsearch = () => {
 //Ejecucion de todas las funciones
 btnMenu();
 menuLogin();
-btnsearch();
 btnMenuResponsive();
+btnsearch();
 
 
 
