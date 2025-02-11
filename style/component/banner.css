@@ -17,10 +17,11 @@
     animation-play-state: running;
     animation-timing-function: linear;
 }
-.marquee-message {
+.marquee p {
     width: max-content;
     display: block;
     padding: 7px 0px 0px 8px;
+    font-family: var(--base-font);
    
 }
 
@@ -34,17 +35,19 @@
         grid-template-columns: repeat(4, 1fr);
         justify-content: space-between;    
     }
-    .marquee-message {
+    .marquee p {
         display: inline-block;
         width: max-content;
         padding: 0px 7px 0px 8px;
+        font-family: var(--base-font);
     }
 }
 @media (min-width : 770px) and (max-width :955px) {
     .marquee {
         width: max-content;
     }
-    .marquee-message {
+    .marquee p {
         padding: 7px 7px 0px 8px;;
+        font-family: var(--base-font);
     }
 }

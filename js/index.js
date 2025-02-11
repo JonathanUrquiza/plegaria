@@ -41,11 +41,45 @@ const btnMenuResponsive = () => {
 
 //Boton que desplega el login
 const menuLogin = () => {
-    const login = document.getElementById('login');
-    const accountAccess = document.getElementById('btn-acount-access');
+    const login = document.getElementById('login'),
+     cart = document.getElementById('cart'), 
+     menuSearch = document.getElementById('menusearch'),
+     accountAccess = document.getElementById('btn-acount-access');
     const state = login.classList
     return accountAccess.addEventListener('click', () => {
         state.value == 'login-off'?login.classList.replace('login-off','login-on'):login.classList.replace('login-on','login-off');
+        cart.classList == 'show'? cart.classList.replace('show','hidden'):null;
+        menuSearch.classList == 'show' ? menuSearch.classList.replace('show', 'hidden'):null;
+    })
+}
+//-------------------------------------//
+
+// BOTON DE BUSQUEDA DE ITEMS
+const btnsearch = () => {
+    const btnSearch = document.getElementById('search'),
+    cart = document.getElementById('cart'), 
+     menuSearch = document.getElementById('menusearch'),
+     login = document.getElementById('login')
+    const state = menuSearch.classList
+    return btnSearch.addEventListener('click', () => {
+        state.value == 'hidden'? menuSearch.classList.replace('hidden','show'): menuSearch.classList.replace('show', 'hidden')
+        cart.classList == 'show'? cart.classList.replace('show','hidden'):null;
+        login.classList == 'login-on'? login.classList.replace('login-on','login-off'):null;
+    })
+};
+//-------------------------------------//
+//boton cart
+const menuCart = () => {
+    const cart = document.getElementById('cart')
+     btnCart = document.getElementById('btn-cart'),
+     menuSearch = document.getElementById('menusearch'),
+     login = document.getElementById('login')
+    const state = cart.classList
+    return btnCart.addEventListener('click', () => {
+        state == 'hidden'? cart.classList.replace('hidden','show'):cart.classList.replace('show','hidden')
+        login.classList == 'login-on'? login.classList.replace('login-on', 'login-off'):null;
+        menuSearch.classList == 'show'? menuSearch.classList.replace('show','hidden'):console.log('fail');
+        ;
     })
 }
 //-------------------------------------//
@@ -59,23 +93,14 @@ const btnMenu = () => {
 }
 //-------------------------------------//
 
-// BOTON DE BUSQUEDA DE ITEMS
-const btnsearch = () => {
-    const btnSearch = document.getElementById('search')
-    const menuSearch = document.getElementById('menusearch');
-    const state = menuSearch.classList
-    return btnSearch.addEventListener('click', () => {
-        state.value == 'hidden'? menuSearch.classList.replace('hidden','show'): menuSearch.classList.replace('show', 'hidden')
-    })
-};
-//-------------------------------------//
+
 
 //Ejecucion de todas las funciones
 btnMenu();
 menuLogin();
 btnMenuResponsive();
 btnsearch();
-
+menuCart();
 
 
 //-------------------------------------//

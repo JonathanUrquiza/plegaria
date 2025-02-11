@@ -4,6 +4,9 @@
 <head>
     <meta name="description" content="Diseñamos indumentaria urbana para diferentes momentos. Excelente calidad y precios accesibles">
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="4DbgEL1YQG6QN1xfCQWLUYmej5Xw3n0MPic-E0ExRI4">
     <link rel="stylesheet" href="style/index.css">
@@ -15,12 +18,12 @@
     <header class="header">
 
         <a href="ofertas">
-            <div class="bg-custom">
+            <div class="header-banner">
                 <div class="marquee">
-                    <p class="marquee-message">Del 20.01 al 31.09</p>
-                    <p class="marquee-message"> HASTA 60% OFF EN SELECCIONADOS</p>
-                    <p class="marquee-message"> 2X1 EN SELECCIONADOS DE SHOP </p>
-                    <p class="marquee-message">HASTA 9 CUOTAS SIN INTERÉS</p>
+                    <p>Del 20.01 al 31.09</p>
+                    <p> HASTA 60% OFF EN SELECCIONADOS</p>
+                    <p> 2X1 EN SELECCIONADOS DE SHOP </p>
+                    <p>HASTA 9 CUOTAS SIN INTERÉS</p>
 
                 </div>
             </div>
@@ -205,8 +208,6 @@
             <li>TEXTO</li>
             <li>TEXTO</li>
         </ul>
-    </header>
-    <main>
         <section class="app" id="app">
             <section id="login" class="login-off">
                 <article class="login-group">
@@ -236,7 +237,23 @@
                     <li class="search-item"><img class="search-icon" src="assets/icons/path505.png" alt="" srcset=""></li>
                 </ul>
             </section>
+            <secttion id="cart" class="hidden">
+                    <ul class="cart-menu">
+                        <li>CARRITO</li>
+                        <li><img class="search-icon" width="5px" src="assets/icons/path505.png" alt="" srcset=""></li>
+                    </ul>
+                    <article class="cart-container">
+                        <p>SU CARRITO ESTA VACIO</p>
+                    </article>
+                
+            </secttion>
         </section>
+    </header>
+    <main>
+        <section class="container">
+
+
+ 
         <section class="video-container">
             <picture>
                 <iframe class="video" width="100%" height="100%"
@@ -277,9 +294,9 @@
                                     <h3 class="title">TEXTO</h3>
                                     <button class="btn-option">+</button>
                                 </div>
-                                <p class="price">$1000</p>
+                                <p class="card-footer-price">$1000</p>
                                 <div>
-                                    <ul class="colors">
+                                    <ul class="card-footer-colors">
                                         <li class="color-example"><img width="15px"
                                                 src="assets/color-examples/color-black.png" alt=""></li>
                                         <li class="color-example"><img width="15px" src="assets/color-examples/gray.png"
@@ -330,7 +347,7 @@
                                 </div>
                                 <p class="price">$1000</p>
                                 <div>
-                                    <ul class="colors">
+                                    <ul class="card-footer-colors">
                                         <li class="color-example"><img width="15px"
                                                 src="assets/color-examples/color-black.png" alt=""></li>
                                         <li class="color-example"><img width="15px" src="assets/color-examples/gray.png"
@@ -379,7 +396,7 @@
                                 </div>
                                 <p class="price">$1000</p>
                                 <div>
-                                    <ul class="colors">
+                                    <ul class="card-footer-colors">
                                         <li class="color-example"><img width="15px"
                                                 src="assets/color-examples/color-black.png" alt=""></li>
                                         <li class="color-example"><img width="15px" src="assets/color-examples/gray.png"
@@ -428,7 +445,7 @@
                                 </div>
                                 <p class="price">$1000</p>
                                 <div>
-                                    <ul class="colors">
+                                    <ul class="card-footer-colors">
                                         <li class="color-example"><img width="15px"
                                                 src="assets/color-examples/color-black.png" alt=""></li>
                                         <li class="color-example"><img width="15px" src="assets/color-examples/gray.png"
@@ -481,7 +498,7 @@
                                 </div>
                                 <p class="price">$1000</p>
                                 <div>
-                                    <ul class="colors">
+                                    <ul class="card-footer-colors">
                                         <li class="color-example"><img width="15px"
                                                 src="assets/color-examples/color-black.png" alt=""></li>
                                         <li class="color-example"><img width="15px" src="assets/color-examples/gray.png"
@@ -533,7 +550,7 @@
                                 </div>
                                 <p class="price">$1000</p>
                                 <div>
-                                    <ul class="colors">
+                                    <ul class="card-footer-colors">
                                         <li class="color-example"><img width="15px"
                                                 src="assets/color-examples/color-black.png" alt=""></li>
                                         <li class="color-example"><img width="15px" src="assets/color-examples/gray.png"
@@ -583,7 +600,7 @@
                                 </div>
                                 <p class="price">$1000</p>
                                 <div>
-                                    <ul class="colors">
+                                    <ul class="card-footer-colors">
                                         <li class="color-example"><img width="15px"
                                                 src="assets/color-examples/color-black.png" alt=""></li>
                                         <li class="color-example"><img width="15px" src="assets/color-examples/gray.png"
@@ -633,7 +650,7 @@
                                 </div>
                                 <p class="price">$1000</p>
                                 <div>
-                                    <ul class="colors">
+                                    <ul class="card-footer-colors">
                                         <li class="color-example"><img width="15px"
                                                 src="assets/color-examples/color-black.png" alt=""></li>
                                         <li class="color-example"><img width="15px" src="assets/color-examples/gray.png"
@@ -796,7 +813,7 @@
                             <p>Texto</p>
                         </div>
                         <div class="adress">
-                            <p>DOT LOCAL 16 "DO PISO</p>
+                            <p>DOT LOCAL 16 2DO PISO</p>
                         </div>
 
                     </div>
@@ -804,6 +821,7 @@
                 </li>
             </ul>
         </section>
+    </section>
     </main>
     <footer class="footer-container">
         <div>
@@ -823,7 +841,7 @@
         <div>
             <form action="" method="post">
                 <label for="email">
-                    <input class="input-email" type="email" name="email" id="email" placeholder="Email">
+                    <input class="input-email" type="email" name="email" placeholder="Email">
                 </label>
                 <label for="join">
                     <button class="btn-join" type="submit">JOIN</button>

@@ -5,13 +5,10 @@
     left: 0px;
     z-index: 1;
 }
-.bg-custom {
+.header-banner {
     width: 100%;
     overflow: hidden;
-    background-color: #751515;
-    color: white;
+    background-color: var(--bg-solid);
+    color: var(--color-font);
     height: 35px;
-}
-.navbar, .sub-navbar {
-    background-color: white;
 }

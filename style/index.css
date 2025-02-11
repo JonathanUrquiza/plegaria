@@ -1,6 +1,11 @@
+/*EXTERNALS*/
+@import url(fonts/fontFamily.css);
+/*MISCELANEOUS*/
+@import url(variable/variabler.css);
 @import url(normalize/normailize.css);
-@import url(component/banner.css);
 @import url(animation/animation.css);
+/*COMPONENTS*/
+@import url(component/banner.css);
 @import url(component/header.css);
 @import url(component/logo.css);
 @import url(component/navbar.css);
@@ -10,6 +15,4 @@
 @import url(component/footer.css);
 @import url(component/login.css);
 @import url(component/menuSearch.css);
-
-
-
+@import url(component/cart.css);

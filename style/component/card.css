@@ -84,7 +84,7 @@
 
     }
 
-    .colors {
+    .card-footer-colors {
         display: flex;
         flex-direction: row;
     }
@@ -118,7 +118,7 @@
         padding: 0 0.5rem;
     }
 
-    .colors {
+    .card-footer-colors {
         display: flex;
         flex-direction: row;
     }
@@ -277,7 +277,7 @@
         display: none;
     }
 
-    .colors {
+    .card-footer-colors {
         display: flex;
         flex-direction: row;
     }
