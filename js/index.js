@@ -74,14 +74,26 @@ const menuCart = () => {
      btnCart = document.getElementById('btn-cart'),
      menuSearch = document.getElementById('menusearch'),
      login = document.getElementById('login')
+     
     const state = cart.classList
     return btnCart.addEventListener('click', () => {
-        state == 'hidden'? cart.classList.replace('hidden','show'):cart.classList.replace('show','hidden')
-        login.classList == 'login-on'? login.classList.replace('login-on', 'login-off'):null;
-        menuSearch.classList == 'show'? menuSearch.classList.replace('show','hidden'):console.log('fail');
-        ;
+           state == 'hidden'? cart.classList.replace('hidden','show'):cart.classList.replace('show','hidden')
+           login.classList == 'login-on'? login.classList.replace('login-on', 'login-off'):null;
+           menuSearch.classList == 'show'? menuSearch.classList.replace('show','hidden'):null;
+           ;
     })
 }
+
+const CloseCart = () => {
+    const btnCartClose = document.getElementById('close-Cart'),
+     cart = document.getElementById('cart')
+    const state = cart.classList
+    console.log(cart);
+    btnCartClose.addEventListener('click', () => {
+        state != 'hidden'?cart.classList.replace('show','hidden'):null
+    })
+}
+
 //-------------------------------------//
 //bonton de apertura de menu
 const btnMenu = () => {
@@ -101,6 +113,7 @@ menuLogin();
 btnMenuResponsive();
 btnsearch();
 menuCart();
+CloseCart();
 
 
 //-------------------------------------//

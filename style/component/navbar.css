@@ -7,6 +7,7 @@
     font-size: var(--spacing-8);
     font-family: var(--base-font);
     background-color: var(--bg-light);
+    z-index: -1;
 
 }
 
@@ -174,6 +175,7 @@ select {
         font-family: var(--base-font);
         background-color: var(--bg-light);
         display: flex;
+        z-index: -1;
     }
 
     .menu-web {
@@ -376,5 +378,6 @@ select {
         justify-content: space-between;
         padding: 6px;
         border-bottom: 1px solid black;
+        z-index: -1;
     }
 }

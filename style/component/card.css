@@ -7,6 +7,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 2em;
+        z-index: -1;
     }
 
     .card {
@@ -29,15 +30,17 @@
         height: 100%;
         position: relative;
     }
-
+    
     .card-image {
-        height: 100%;
+        z-index: -1;
         width: 100%;
+        height: 100%;
         display: flex;
         align-items: center;
     }
 
     .card-image-b {
+        z-index: -1;
         left: 0;
         top: 0;
         width: 100%;
@@ -135,7 +138,7 @@
         bottom: 0px;
         right: 0px;
         z-index: 1;
-        background-color: #75151575;
+        background-color: var(--bg-opacity);
     }
     
     .size-container ul {
@@ -147,7 +150,7 @@
         bottom: 0px;
         right: 0px;
         height: 15vh;
-        background-color: white;
+        background-color: var(--bg-light);
         opacity: 1;
         width: 100vw;
         display: flex;
@@ -179,6 +182,7 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 10px 20px;
+        z-index: 0;
     }
 
     .card {
@@ -205,11 +209,13 @@
         width: 100%;
         height: 100%;
         position: relative;
+        z-index: 0;
     }
 
     .card-image {
         height: 100%;
         width: 100%;
+        z-index: 0;
         display: flex;
         align-items: center;
     }
@@ -218,6 +224,7 @@
         left: 0;
         top: 0;
         width: 100%;
+        z-index: 0;
         height: 100%;
         display: none;
         position: absolute;
@@ -289,7 +296,7 @@
     .size-container {
         width: 100%;
         display: none;
-        background-color: white;
+        background-color: var(--bg-light);
         position: relative;
         right: 0;
         bottom: 0;

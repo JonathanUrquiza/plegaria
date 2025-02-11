@@ -11,4 +11,5 @@
     background-color: var(--bg-solid);
     color: var(--color-font);
     height: 35px;
+    z-index: -1;
 }

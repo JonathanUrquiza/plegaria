@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--bg-light);
-    z-index: 2;
+    z-index: 1;
 }
 .search-icons{
     width: 20px;
@@ -18,7 +18,7 @@
 }
 .cart-container {
     background-color: var(--bg-light);
-    z-index: 2;
+    z-index: 1;
     width: 100%;
     height: 80vh;
     display: flex;
