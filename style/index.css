@@ -1,18 +1,18 @@
 /*EXTERNALS*/
-@import url(fonts/fontFamily.css);
+@import url('fonts/fontFamily.css');
 /*MISCELANEOUS*/
-@import url(variable/variabler.css);
-@import url(normalize/normailize.css);
-@import url(animation/animation.css);
+@import url('variable/variabler.css');
+@import url('normalize/normailize.css');
+@import url('animation/animation.css');
 /*COMPONENTS*/
-@import url(component/banner.css);
-@import url(component/header.css);
-@import url(component/logo.css);
-@import url(component/navbar.css);
-@import url(component/herovideo.css);
-@import url(component/card.css);
-@import url(component/carrousel.css);
-@import url(component/footer.css);
-@import url(component/login.css);
-@import url(component/menuSearch.css);
-@import url(component/cart.css);
+@import url('component/banner.css');
+@import url('component/header.css');
+@import url('component/logo.css');
+@import url('component/navbar.css');
+@import url('component/herovideo.css');
+@import url('component/card.css');
+@import url('component/carrousel.css');
+@import url('component/footer.css');
+@import url('component/login.css');
+@import url('component/menuSearch.css');
+@import url('component/cart.css');
