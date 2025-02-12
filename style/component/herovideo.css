@@ -9,8 +9,8 @@
         width: 60px;
         border-radius: 50%;
         position: fixed;
-        background-image: radial-gradient(white, black);
-        bottom: 8%;
+        background-image: radial-gradient(white, white, black);
+        bottom: 2%;
         right: 8%;
     }
     .promo-container {
@@ -145,7 +145,7 @@
         width: 60px;
         border-radius: 50%;
         position: fixed;
-        background-image: radial-gradient(white, black);
+        background-image: radial-gradient(white, white, black);
         bottom: 8%;
         right: 8%;
     }

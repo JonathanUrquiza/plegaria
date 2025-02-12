@@ -15,7 +15,12 @@ footer {
 input::placeholder {
     color: var(--bg-solid);
 }
-
+footer form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 .input-email {
     padding: 1em;
