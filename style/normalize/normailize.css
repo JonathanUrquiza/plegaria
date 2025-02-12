@@ -24,7 +24,6 @@ a:visited {
 }
 .show{
     display: block;
-    background-color: var(--bg-light);
 }
 .hidden{
     display: none;

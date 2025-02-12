@@ -46,6 +46,7 @@ form{
 }
 .password, .reset {
     border: none;
+    background-color: var(--bg-light);
 }
 .password{
     width: 50%;
