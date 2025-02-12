@@ -30,16 +30,18 @@
     }
 
     .shop-promo-a {
+        position: relative;
         width: 100%;
         height: 100%;
         grid-column: 0/0;
         grid-row: 0/0;
         align-self: center;
         justify-self: center;
-
+        
     }
-
+    
     .shop-promo-b {
+        position: relative;
         width: 100%;
         height: 100%;
         grid-column: 0/0;
@@ -49,7 +51,7 @@
 
     }
 
-
+    
     .promo-image {
         width: 100%;
         height: 100%;
@@ -58,10 +60,11 @@
         align-items: center;
         align-self: center;
         justify-self: center;
-
+        
     }
-
+    
     .big-promo {
+        position: relative;
         padding: 1.5px;
     }
 
@@ -75,16 +78,15 @@
     }
 
     .promo-links-container {
-        width: 50%;
-        position: relative;
-        bottom: 8em;
+        width: fit-content;
+        position: absolute;
+        bottom: 8%;
+        left: 14%;
         justify-self: start;
-        padding-left: 25px;
-        padding-bottom: 8px;
         display: flex;
+        color: var(--color-font);
         flex-direction: column;
         align-items: baseline;
-        margin-bottom: -8em;
     }
 
     .promo-links-title {
