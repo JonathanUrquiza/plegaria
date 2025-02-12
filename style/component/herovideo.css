@@ -161,7 +161,9 @@
         cursor: pointer;
     }
 
-
+    .promo-container {
+        display: none;
+    }
 }
 
 .video-container {
@@ -186,9 +188,7 @@
     margin-top: 1.5em;
 }
 
-.promo-container {
-    display: none;
-}
+
 
 .more-card {
     text-decoration: underline;
