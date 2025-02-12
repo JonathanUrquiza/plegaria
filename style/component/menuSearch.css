@@ -1,12 +1,4 @@
-.show{
-    display: block;
-    background-color: var(--bg-light);
 
-}
-.hidden{
-    display: none;
-    z-index: -1;
-}
 .search {
     gap: 0 15px;
     padding: 5px;
