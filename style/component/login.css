@@ -26,27 +26,33 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:    15px;
+    padding: 15px;
     border: none;
 }
 .email {
     width: 100%;
     margin: 10px;
+    height: 1.5rem;
 }
 
 .login-pass{
     width: 100%;
+    height: 1.7rem;
     display: flex;
-    padding: 0;
+    padding: 2px;
     margin: 10px;
+    
     justify-content: space-between;
 }
 .password, .reset {
     border: none;
 }
 .password{
-    width: 40%;
+    width: 50%;
 }
+.reset {
+    width: 50%;
+}   
 .btn-session{
     background-color: black;
     color: white;
