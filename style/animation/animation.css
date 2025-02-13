@@ -16,6 +16,38 @@
     }
     
 }
+@keyframes productSlider {
+    0%{
+        transform: translateX(0);
+    }
+    12%{
+        transform: translateX(0);
+    }
+    24%{
+        transform: translateX(-25%);
+    }
+    36%{
+        transform: translateX(-25%);
+    }
+    48%{
+        transform: translateX(-50%);
+    }
+    60%{
+        transform: translateX(-50%);
+    }
+    72%{
+        transform: translateX(-75%);
+    }
+    84%{
+        transform: translateX(-75%);
+    }
+    96%{
+        transform: translateX(-100%);
+    }
+    97%{
+        transform: translateX(0);
+    }
+}
 @keyframes slider {
     0%{
         transform: translateX(0);
