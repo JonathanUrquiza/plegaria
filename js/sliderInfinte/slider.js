@@ -12,13 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Clonar primera y última imagen para efecto infinito
     const firstClone = slides[0].cloneNode(true);
+    
+    
     const lastClone = slides[totalSlides - 1].cloneNode(true);
     slider.appendChild(firstClone); // Agrega la primera imagen clonada al final
     slider.insertBefore(lastClone, slides[0]); // Agrega la última imagen clonada al principio
-    
     const allSlides = document.querySelectorAll(".slide"); // Vuelve a seleccionar todas las imágenes con clones incluidos
     const slideWidth = slides[0].clientWidth; // Obtiene el ancho de cada imagen
     slider.style.transform = `translateX(${-slideWidth * index}px)`; // Posiciona el slider en la primera imagen real
+    
+    
 
     // Crear marcadores
     for (let i = 0; i < totalSlides; i++) {
