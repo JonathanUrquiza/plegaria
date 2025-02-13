@@ -17,7 +17,7 @@
 .product-image-container {
     width: 400%;
     height: 100%;
-    animation: productSlider 20s infinite linear;
+    /* animation: productSlider 20s infinite linear; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
