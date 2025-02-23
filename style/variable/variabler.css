@@ -1,11 +1,15 @@
 :root {
     /*colors*/
-    --black : black;
+    --black : #000000;
+    --black-light : #333;
+    --black-lighter : #666;
     /*Background de temporada*/
-    --bg-light: #fafaff;
-    --bg-solid: #751515;
-    --bg-opacity: #75151575;
+    --bg-light: #ffffff;
+    --bg-solid: #5d1a2e;
+    --bg-solid-hover: #91193d;
+    --bg-opacity: #632f3f88;
     /*Tipografia*/
+    --roboto-font: 'Roboto', sans-serif;   
     --base-font: 'bebas', serif;
     /*font sizes*/
     --font-display: 4.6rem;
@@ -16,6 +20,7 @@
     --font-medium: 1.8rem;
     --font-small: 1.6rem;
     --font-xsmall: 1.4rem;
+    --font-xxsmall: 0.7rem;
     /* Spacings */
     --spacing-128: 12.8rem;
     --spacing-100: 10rem;
@@ -30,6 +35,17 @@
     --spacing-8: 0.8rem;
     /*font color*/
     --color-font: white;
-    /**/
-    /**/
+    /*font-weight*/
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    /*border-radius*/
+    /*font color*/
+    --color-white: white;
+    --color-black: black;
+    --color-red: #751515;
+    --color-red-light: #a33f3f;
+    --color-red-dark: #4d0f0f;
+
 }

@@ -39,8 +39,9 @@
                                     type="button">COLLECCIONES</button></li>
                             <li class="navbar-links arrivals"><button class="btn btn-arrivals" type="button">NEW
                                     ARRIVALS</button></li>
-                            <li class="navbar-links about"><button class="btn btn-about" type="button">SOBRE
-                                    NOSOTROS</button></li>
+                            <li class="navbar-links about"><a href="pages/aboutUs/aboutUs.html"><button
+                                        class="btn btn-about" type="button">SOBRE
+                                        NOSOTROS</button></a></li>
                         </ul>
                         <ul>
                             <li class="ocultar" id="shop-submenu">
@@ -94,9 +95,7 @@
                                 arrivals
                             </li>
                             <li class="ocultar" id="about-submenu">
-                                <a href="../aboutUs/aboutUs.html">
-                                about Us
-                            </a>
+                                <a href="aboutUs.html"></a> about Us</a>
                             </li>
                         </ul>
                     </div>
@@ -168,7 +167,7 @@
                                     <ul class="list">
                                         <li class="list-items">COLLECIONES</li>
                                         <li class="list-items">NEW ARRIVALS</li>
-                                        <li class="list-items"><a href="../aboutUs/aboutUs.html">SOBRE NOSTROS</a></li>
+                                        <li class="list-items"><a href="aboutUs.html">SOBRE NOSTROS</a></li>
                                     </ul>
                                 </li>
 
@@ -267,203 +266,34 @@
         </section>
     </header>
     <main>
-        <section class="product-container">
-
-
-            <article class="slider-container">
-                <div class="slider" id="slider">
-                    <div class="slide"><img src="../../assets/images/collections/woman/conjunto-blanco-a.webp" alt="1">
-                    </div>
-                    <div class="slide"><img src="../../assets/images/collections/woman/conjunto-blanco-b.webp" alt="2">
-                    </div>
-                    <div class="slide"><img src="../../assets/images/collections/woman/conjunto-mujer.webp" alt="2">
-                    </div>
+        <section class="about-container">
+            <article class="about-content">
+                <div class="about-title">
+                    <p class="subtitle">SOBRE NOSOTROS</p>
+                    <p class="title">Texto</p>
                 </div>
-                <div class="dots"></div>
-                <div class="controls">
-                    <button id="prev"><img class="image-indicator image-indicator--A"
-                            src="../../assets/icons/chevron.png" alt="" srcset=""></button>
-                    <button id="next"><img class="image-indicator image-indicator--B"
-                            src="../../assets/icons/chevron.png" alt="" srcset=""></button>
+                <div class="about-text">
+                    <p class="text">PLEGARIA es una marca de indumentaria urbana que nace en el año 2019 en la ciudad de Buenos Aires,
+                        Argentina. Diseñamos prendas para diferentes momentos
+                    </p>
                 </div>
-                <div class="indicators" id="indicators"></div>
-                <div class="porduct-discount">
-                    <a href="">
-                        <img class="product-cucarda" width="50px" src="../../assets/descargas/boton.png" alt=""
-                            srcset="">
-                        <div class="product-discount-text">
-                            <p>Text</p>
-                    </a>
-                </div>
-                </div>
-            </article>
-            <article class="product-description">
-                <div class="product-price">
-                    <h4>Texto</h4>
-                    <p>$1000</p>
-                </div>
-                <div class="product-aditional-info">
-                    <p>Texto</p>
-                    <p>Texto</p>
-                    <p>Texto</p>
-                    <p>Texto</p>
-                </div>
-                <div class="divider"></div>
-            </article>
-            <article class="product-description">
-                <div class="colors-examples">
-                    <ul class="color-example-list">
-                        <li>
-                            <img class="color-example-item"
-                                src="../../assets/images/collections/woman/conjunto-blanco-a.webp" alt="" srcset="">
-                        </li>
-                        <li>
-                            <img class="color-example-item"
-                                src="../../assets/images/collections/woman/conjunto-blanco-b.webp" alt="" srcset="">
-                        </li>
-                        <li>
-                            <img class="color-example-item"
-                                src="../../assets/images/collections/woman/conjunto-mujer-b.webp" alt="" srcset="">
-                        </li>
-                        <li>
-                            <img class="color-example-item"
-                                src="../../assets/images/collections/woman/conjunto-mujer-a.webp" alt="" srcset="">
-                        </li>
-                    </ul>
-                </div>
-                <div class="divider"></div>
-            </article>
-            <article class="product-description">
-                <div class="product-size">
-                    <ul class="sizes">
-                        <li class="size">XS</li>
-                        <li class="size">S</li>
-                        <li class="size">M</li>
-                        <li class="size">L</li>
-                        <li class="size">XL</liD>
-                        <li class="size">XXL</liD>
-                    </ul>
-                </div>
-                <div class="divider"></div>
-            </article>
-            <article class="product-description">
-                <form action="" >
-                    <fieldset class="product-add">
-                        <button class="btn-add" id="btn-add">AGREGAR AL CARRITO</button>
-                    </fieldset>
-                </form>
-                <div class="divider"></div>
-                <div class="hidden" id="cart-container">
-                    <div class="hidden" id="cartAdded">
-                        <div class="cart-added">
-                            <p class="cart-title">¡AÑADIDO A TU CARRITO!</p>
-                            <div class="cart-added-info">
-                                <div class="cart-added-image">
-                                    <img src="" alt="" srcset="">
-                                </div>
-                                <div class="cart-added-text">
-                                    <div class="cart-added-description">
-                                        <p>Texto</p>
-                                        <p class="text-lighter">$1000</p>
-                                        <p class="text-lighter">XS</p>
-                                    </div>
-                                    <div class="cart-count">
-                                        <button class="btn-plus">-</button>
-                                        <p class="contador">1</p>
-                                        <button class="btn-minus">+</button>
-                                    </div>
-                                </div>
-                                <div class="cart-added-btn">
-                                    <form action="" >
-                                        <button class="btn-delete" type="button">ELIMINAR</button>
-                                    </form>
-                                </div>
-                                
-                            </div>
-                            <div class="divider"></div>
-                            <div class="cart-total">
-                                <div class="cart-total-descriptions">
-                                    <p class="cart-total-text">CARRITO</p>
-                                    <p class="text-lighter text-small">total</p>
-                                </div>
-                                <div class="cart-total-info">
-                                    <p class="text-lighter text-small">1 producto</p>
-                                    <p class="">$1000</p>
-                                </div>
-                            </div>
-                            <div class="cart-btn">
-                                <button id="btn-validate" class="btn-checkout" type="button">VERIFICAR</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <artcicle class="product-description">
-                <div class="products-options" id="talles">
-                    <p>¿QUE TALLE SOY?</p>
-                    <p>+</p>
-                </div>
-                <div class="divider"></div>
-            </artcicle>
-            <artcicle class="product-description" id="payment">
-                <div class="products-options">
-                    <p>MEDIOS DE PAGO</p>
-                    <p>+</p>
-                </div>
-                <div class="divider"></div>
-            </artcicle>
-            <artcicle class="product-description" id="shipping">
-                <div class="products-options">
-                    <p>MEDIOS DE ENVÍO</p>
-                    <p>+</p>
-                </div>
-                <div class="divider"></div>
-            </artcicle>
         </section>
-        <section class="product-container">
-            <p>También te puede gustar</p>
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-header">
-
-                    </div>
-                    <div class="card-body">
-                        <div class="card-image-container">
-
-                            <img class="card-image card-image-center"
-                                src="../../assets/images/collections/man/conjunto-black-front.webp" alt="">
-                            <img class="card-image card-image-b"
-                                src="../../assets/images/collections/man/conjunto-black-back.webp" alt="">
-                        </div>
-                        <div class="indicator-container">
-                            <img class="image-indicator image-indicator--A" src="../../assets/icons/chevron.png" alt=""
-                                srcset="">
-                            <img class="image-indicator image-indicator--B" src="../../assets/icons/chevron.png" alt=""
-                                srcset="">
-                        </div>
-                    </div>
+        <section class="video-container">
+            <article class="promo-image">
+                <img class="promo-image" src="../../assets/images/accesory.webp" alt="" srcset="">
+            </article>
+        </section>
+        <section class="about-container">
+            <article class="about-content">
+                <div class="about-title">
+                    <p class="subtitle">SOBRE NOSOTROS</p>
+                    <p class="title">Texto</p>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-
-                    </div>
-                    <div class="card-body">
-                        <div class="card-image-container">
-
-                            <img class="card-image card-image-center"
-                                src="../../assets/images/collections/man/conjunto-black-front.webp" alt="">
-                            <img class="card-image card-image-b"
-                                src="../../assets/images/collections/man/conjunto-black-back.webp" alt="">
-                        </div>
-                        <div class="indicator-container">
-                            <img class="image-indicator image-indicator--A" src="../../assets/icons/chevron.png" alt=""
-                                srcset="">
-                            <img class="image-indicator image-indicator--B" src="../../assets/icons/chevron.png" alt=""
-                                srcset="">
-                        </div>
-                    </div>
+                <div class="about-text">
+                    <p class="text">PLEGARIA es una marca de indumentaria urbana que nace en el año 2019 en la ciudad de Buenos Aires,
+                        Argentina. Diseñamos prendas para diferentes momentos
+                    </p>
                 </div>
-            </div>
         </section>
     </main>
     <footer class="footer-container">
@@ -493,12 +323,9 @@
         </div>
 
     </footer>
-    <script src="../../js/cart/btnCart.js">btnCart</script>
     <script src="../../js/menuMobile/menuMobile.js">MenuResponsive</script>
     <script src="../../js/menuSearch/menuSearch.js">menuBuscar</script>
     <script src="../../js/menuLogin/menuLogin.js">menuLogin</script>
-    <script src="../../js/menuCart/menuCart.js">menuCart</script>
-    <script src="../../js/silderProduct/sliderProduct.js"></script>
 </body>
 
 </html>

@@ -22,6 +22,7 @@
     display: block;
     padding: 7px 0px 0px 8px;
     font-family: var(--base-font);
+    font-size: var(--font-xxsmall);
    
 }
 
