@@ -77,7 +77,7 @@ footer form {
         max-width: 100%;
         flex-direction: row;
         align-items: stretch;
-        color: var(--color-font);
+        color: var(--color-red);
         justify-content: space-around;
         font-family: var(--base-font);
     }
@@ -88,7 +88,7 @@ footer form {
     }
 
     input::placeholder {
-        color: var(--color-font);
+        color: var(--color-red);
     }
 
 
