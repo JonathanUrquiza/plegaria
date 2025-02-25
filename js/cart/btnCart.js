@@ -4,6 +4,8 @@ const btnAdd = document.getElementById('btn-add');
 const checkout =document.querySelector('.btn-checkout');
 
 
+
+
 btnAdd.addEventListener('click', (e) => {
     const show = cartAdded.classList.contains('hidden');
     e.preventDefault();

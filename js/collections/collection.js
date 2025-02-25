@@ -5,6 +5,10 @@ const btBack = document.getElementById('bt-back');
 const btForward = document.getElementById('bt-forward');
 const slider = document.querySelectorAll('.slider');
 
+const tienda = document.getElementById('shop-submenu'),
+menuSearch = document.getElementById('menusearch'),
+     login = document.getElementById('login')
+
 const length = slider.length;
 let index = 1;
 
@@ -39,16 +43,21 @@ const updateSlider = () => {
     slider.forEach(slide => slide.style.transform = `translateX(-${index * 25}%)`);
 }
 
-collections.addEventListener('click', () => {
+const btcollection = () => {
     const show = collectionsList.classList.contains('hidden');
     if (show) {
-        collectionsList.classList.remove('hidden');
         collectionsList.classList.add('show');
+        collectionsList.classList.remove('hidden');
+        menuSearch.classList.replace('show', 'hidden');
+        cart.classList.replace('show','hidden');
+        login.classList.replace('login-on','login-off');
+        tienda.classList.replace('shop-submenu','hidden');
     } else {
         collectionsList.classList.remove('show');
         collectionsList.classList.add('hidden');
     }
+}
 
-})
+collections.addEventListener('click', btcollection);
 btForward.addEventListener('click', nextProduct);
 btBack.addEventListener('click', prevProduct)

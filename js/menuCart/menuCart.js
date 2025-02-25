@@ -1,31 +1,49 @@
 //boton cart
+const btnCartClose = document.getElementById('close-Cart');
+const btnCart = document.getElementById('btn-cart');
+const cartweb = document.getElementById('cartweb');
 const menuCart = () => {
-    const cart = document.getElementById('cart')
-     btnCart = document.getElementById('btn-cart'),
+    const cart = document.getElementById('cart'),
      menuSearch = document.getElementById('menusearch'),
-     login = document.getElementById('login'),
-     navigation = document.getElementById('navigation')
-     const state = cart.classList
+     login = document.getElementById('login')
      
-     return btnCart.addEventListener('click', () => {
+     if (cart.classList.contains('hidden')) {
+         cart.classList.replace('hidden','show')
+         login.classList.replace('login-on', 'login-off');
+         menuSearch.classList.replace('show','hidden');   
          
-         state == 'hidden'? cart.classList.replace('hidden','show'):cart.classList.replace('show','hidden')
-         state != 'hidden'? navigation.classList.replace('navigation','hidden'):null;
-          login.classList == 'login-on'? login.classList.replace('login-on', 'login-off'):null;
-            menuSearch.classList == 'show'? menuSearch.classList.replace('show','hidden'):null;   
-    })
+        } else {
+         cart.classList.replace('show','hidden')
+        
+        }
 }
 
 const CloseCart = () => {
-    const btnCartClose = document.getElementById('close-Cart'),
-     cart = document.getElementById('cart')
-    const state = cart.classList
-    btnCartClose.addEventListener('click', () => {
-        state != 'hidden'?cart.classList.replace('show','hidden'):null
-        state == 'hidden'? navigation.classList.replace('hidden','navigation'):null;
-    })
+    const cart = document.getElementById('cart')
+
+    if (!cart.classList.contains('hidden')) {
+        cart.classList.replace('show','hidden');
+    }
+    
+        
 }
 
+const webCart = ()  => {
+    const cart = document.getElementById('cart'),
+     menuSearch = document.getElementById('menusearch'),
+     login = document.getElementById('login')
+
+     if (cart.classList.contains('hidden')) {
+        cart.classList.replace('hidden','show')
+        menuSearch.classList.replace('show','hidden');   
+        
+       } else {
+        cart.classList.replace('show','hidden')
+       }
+       console.log('aca');
+       
+}
 //-------------------------------------//
-menuCart();
-CloseCart();
+btnCart.addEventListener('click',menuCart);
+btnCartClose.addEventListener('click',CloseCart);
+cartweb.addEventListener('click', webCart)

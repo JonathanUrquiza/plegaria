@@ -35,13 +35,13 @@
                         <ul class="menu-product">
                             <li class="navbar-links tienda"><button class="btn btn-tienda" type="button">TIENDA</button>
                             </li>
-                            <li class="navbar-links collection"><button class="btn btn-collections"
-                                    type="button">COLLECCIONES</button></li>
-                            <li class="navbar-links arrivals"><button class="btn btn-arrivals" type="button">NEW
-                                    ARRIVALS</button></li>
-                            <li class="navbar-links about"><a href="pages/aboutUs/aboutUs.html"><button
-                                        class="btn btn-about" type="button">SOBRE
-                                        NOSOTROS</button></a></li>
+                            <li class="navbar-links collection"><button id="btn-colecction" class="btn btn-collections"
+                                    type="button">COLLECCIONES</button>
+                            </li>
+                            <li class="navbar-links arrivals"><a href="#arrivals" class="btn btn-arrivals" type="button">NEW
+                                    ARRIVALS</a></li>
+                            <li class="navbar-links about"><a href="pages/aboutUs/aboutUs.html"><button class="btn btn-about" type="button">SOBRE
+                                    NOSOTROS</button></a></li>
                         </ul>
                         <ul>
                             <li class="ocultar" id="shop-submenu">
@@ -54,48 +54,131 @@
                                     </ul>
                                 </div>
                                 <div class="shop-undermenu">
-                                    <ul>
-                                        <li>NOVEDADES</li>
-                                        <li>BACK IN STOCK</li>
-                                        <li>MUJER</li>
-                                        <li>GIFT CARD</li>
+                                    <ul class="shop-undermenu-items">
+                                        <li class="shop-undermenu-item">NOVEDADES</li>
+                                        <li class="shop-undermenu-item">BACK IN STOCK</li>
+                                        <li class="shop-undermenu-item">MUJER</li>
+                                        <li class="shop-undermenu-item">GIFT CARD</li>
                                         <li></li>
                                     </ul>
-                                    <ul>
-                                        <li>VER TODO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
+                                    <ul class="shop-undermenu-options">
+                                        <li class="shop-undermenu-option">VER TODO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
                                     </ul>
-                                    <ul>
-                                        <li>VER TODO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
+                                    <ul class="shop-undermenu-options">
+                                        <li class="shop-undermenu-option">VER TODO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
                                     </ul>
-                                    <ul>
-                                        <li>VER TODO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
-                                        <li>TEXTO</li>
+                                    <ul class="shop-undermenu-options">
+                                        <li class="shop-undermenu-option">VER TODO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
+                                        <li class="shop-undermenu-option">TEXTO</li>
                                     </ul>
                                 </div>
 
                             </li>
-                            <li class="ocultar" id="collection-submenu">
-                                collections
+                            <li class="hidden" id="collection-submenu">
+                                <ul class="indicators-containers">
+                                    <li  id="bt-back" class="inidcator-container">
+                                        <img class="indicator indicator-A" width="40px" src="../../assets/icons/chevron.png" alt="" srcset="">
+                                    </li>
+                                    <li id="bt-forward" class="inidcator-container">
+                                        <img class="indicator indicator-B" width="40px" src="../../assets/icons/chevron.png" alt="" srcset="">
+                                    </li>
+                                </ul>
+                                <div class="collection-undermenu">
+                                    <ul class="collections-items slider" id="collections-items">
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="1" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="2" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="3" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="4" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="5" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="6" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="7" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="8" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="9" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="10" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="11" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                        <li class="collection-item">
+                                            <div class="collection-image">
+                                                <img src="" alt="12" srcset="">
+                                                <p class="collection-title">TEXTO</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
                             <li class="ocultar" id="arrivals-submenu">
                                 arrivals
                             </li>
                             <li class="ocultar" id="about-submenu">
-                                <a href="aboutUs.html"></a> about Us</a>
+                                <a href="pages/aboutUs/aboutUs.html">about Us</a>
                             </li>
                         </ul>
                     </div>
@@ -110,8 +193,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div>
-                        <ul class="menu-account">
+                    <div class="menu-account">
+                        <ul class="menu-account-items">
                             <li class="navbar-links">
                                 <form action="" method="get">
                                     <select class="language" id="language" name="language">
@@ -124,13 +207,13 @@
                             </li>
 
                             <li class="navbar-links">
-                                <button class="btn btn-account" type="button"> CUENTA</button>
+                                <button class="btn btn-account" id="account" type="button"> CUENTA</button>
                             </li>
                             <li class="navbar-links">
-                                <img class="logo-search" src="../../assets/icons/path22.png" alt="">
+                                <img class="logo-search" id="searchWeb" src="../../assets/icons/path22.png" alt="">
                             </li>
                             <li class="navbar-links list-item--conter">
-                                <button class="btn btn-cart" type="button"> CARRITO </button>
+                                <button class="btn btn-cart" id="cartweb" type="button"> CARRITO </button>
                                 <p class="count">0</p>
                             </li>
                         </ul>
@@ -167,9 +250,9 @@
 
                                 <li class="list-mobile">
                                     <ul class="list">
-                                        <li class="list-items">COLLECIONES</li>
-                                        <li class="list-items">NEW ARRIVALS</li>
-                                        <li class="list-items"><a href="aboutUs.html">SOBRE NOSTROS</a></li>
+                                        <li class="list-items"> <a href=""> COLLECIONES</a></li>
+                                        <li class="list-items"> <a href="#arrivals"> NEW ARRIVALS</a></li>
+                                        <li class="list-items"> <a href="pages/aboutUs/aboutUs.html"> SOBRE NOSTROS</a></li>
                                     </ul>
                                 </li>
 
@@ -196,6 +279,7 @@
                             alt="Logotipo de la marcar PLEGARIA" srcset="">
                         </a>
                     </li>
+
                     <li class="container-account">
                         <ul class="menu-account-mobile">
                             <li class="image-mobile-menu"><img class="image-mobile" id="btn-acount-access"
@@ -204,7 +288,7 @@
                                     src="../../assets/icons/path22.png"></a></li>
                             <li class="image-mobile-menu"><img class="image-mobile" id="btn-cart"
                                     src="../../assets/icons/path34.png"></a></li>
-                            <li class="image-mobile-menu image-mobile-menu--acount">(0)</a></li>
+                            <li class="image-mobile-menu image-mobile-menu--acount"><a href="">(0)</a></li>
                         </ul>
 
 
@@ -212,7 +296,6 @@
 
                 </ul>
             </nav>
-            
             <ul class="sub-navbar" id="sub-navbar">
                 <li>TEXTO</li>
                 <li>TEXTO</li>
@@ -248,8 +331,8 @@
                 <ul class="search">
                     <li class="search-item"><img class="search-icon" src="../../assets/icons/path22.png" alt=""></li>
                     <li class="search-item"><input class="search-input" type="text" placeholder="BUSCAR..."></li>
-                    <li class="search-item"><img class="search-icon" src="../../assets/icons/path505.png" alt=""
-                            srcset=""></li>
+                    <li class="search-item"><img class="search-icon" src="../../assets/icons/path505.png" alt="" srcset="">
+                    </li>
                 </ul>
             </section>
             <secttion id="cart" class="hidden">
@@ -257,8 +340,8 @@
 
                     <ul class="cart-option">
                         <li>CARRITO</li>
-                        <li><img id="close-Cart" class="search-icon" width="5px" src="../../assets/icons/path505.png"
-                                alt="" srcset=""></li>
+                        <li><img id="close-Cart" class="search-icon" width="5px" src="../../assets/icons/path505.png" alt=""
+                                srcset=""></li>
                     </ul>
 
                     <div class="cart">

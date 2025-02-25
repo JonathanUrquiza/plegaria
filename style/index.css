@@ -4,6 +4,8 @@
 @import url('variable/variabler.css');
 @import url('normalize/normailize.css');
 @import url('animation/animation.css');
+/*partials*/
+@import url('partials/main.css');
 /*COMPONENTS*/
 @import url('component/banner.css');
 @import url('component/header.css');

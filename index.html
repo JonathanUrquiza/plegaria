@@ -33,7 +33,7 @@
                 <div class="menu-web">
                     <div class="sub-menu">
                         <ul class="menu-product">
-                            <li class="navbar-links tienda"><button class="btn btn-tienda" type="button">TIENDA</button>
+                            <li class="navbar-links tienda"><button id="btn-tienda" class="btn btn-tienda" type="button">TIENDA</button>
                             </li>
                             <li class="navbar-links collection"><button id="btn-colecction" class="btn btn-collections"
                                     type="button">COLLECCIONES</button>
@@ -44,7 +44,7 @@
                                     NOSOTROS</button></a></li>
                         </ul>
                         <ul>
-                            <li class="ocultar" id="shop-submenu">
+                            <li class="hidden" id="shop-submenu">
                                 <div class="shop-undermenu">
                                     <ul class="title-undermenu">
                                         <li>BEST SELLER</li>
@@ -338,11 +338,11 @@
             <secttion id="cart" class="hidden">
                 <article class="cart-container">
 
-                    <ul class="cart-option">
-                        <li>CARRITO</li>
-                        <li><img id="close-Cart" class="search-icon" width="5px" src="assets/icons/path505.png" alt=""
-                                srcset=""></li>
-                    </ul>
+                    <div class="cart-option">
+                        <p>CARRITO</p>
+                        <img id="close-Cart" class="search-icon" width="5px" src="assets/icons/path505.png" alt=""
+                                srcset="">
+                    </div>
 
                     <div class="cart">
                         <p>SU CARRITO ESTA VACIO</p>
@@ -1022,11 +1022,11 @@
 
         </div>
     </footer>
+    <script src="js/tiendamenu/tiendamenu.js">tiendamenu</script>
     <script src="js/menuMobile/menuMobile.js">MenuResponsive</script>
     <script src="js/menuSearch/menuSearch.js">menuBuscar</script>
     <script src="js/menuLogin/menuLogin.js">menuLogin</script>
     <script src="js/menuCart/menuCart.js">menuCart</script>
-    <script src="js/menuweb/menuWeb.js">allitemsmenu</script>
     <script src="js/sizeMenu/sizeMenu.js">sizeproductoptions</script>
     <script src="js/collections/collection.js"></script>
 </body>
