@@ -164,6 +164,11 @@
         display: none;
     }
 }
+@media screen and (min-width : 1446px) {
+    .promo-container {
+        display: none;
+    }
+}
 
 .video-container {
     width: 100%;
@@ -192,7 +197,9 @@
 }
 .arrivals-text {
     padding-left: 25px;
-    font-size: 0.7rem;
+    font-size: var(--font-small);
+    font-family: var(--robot-font);
+    font-weight:var(--font-weight-bold);
 }
 
 .banner-container{
@@ -221,4 +228,13 @@
     grid-template-rows: 1fr;
     gap: 10px 10px;
     padding: 1em;
+}
+.w-logo {
+    z-index: 3;
+    width: 100px;
+    border-radius: 50%;
+    position: fixed;
+    background-image: radial-gradient(white, white, black);
+    bottom: 8%;
+    right: 8%;
 }

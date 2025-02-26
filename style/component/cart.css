@@ -41,7 +41,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    align-items: baseline;
+    align-items: center;
     background-color: var(--bg-light);
 }
 .search-icons {

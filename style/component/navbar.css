@@ -4,8 +4,8 @@
     width: 100%;
     border-bottom: 1px black solid;
     padding: 15px 0px;
-    font-size: var(--spacing-8);
-    font-family: var(--base-font);
+    font-size: var(--font-xxsmall);
+    font-family: var(--roboto-font);
     background-color: var(--bg-light);
     z-index: -1;
 

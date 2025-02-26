@@ -1,6 +1,6 @@
 .carrousel-title {
     font-family: var(--robot-font);
-    font-weight: 600;
+    font-weight:var(--font-weight-bold);
     font-size: var(--font-small);
 }
 @media screen and (max-with : 1000px) {

@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<IMG>
+	<E K="Author" V="12.0.0.270 Pro Mac" />
+	<E K="Camera_Firmware" V="Firmware Version 1.2.3" />
+	<E K="Camera_Lens" V="Canon EF 24-105mm f/4L IS USM" />
+	<E K="Camera_Make" V="Canon" />
+	<E K="Camera_Model" V="Canon EOS 5D Mark III" />
+	<E K="Camera_Owner" V="william kano" />
+	<E K="Camera_Serial" V="052024006421" />
+	<E K="Camera_Software" V="Capture One 12 Macintosh" />
+	<E K="CameraDisplayName" V="Jpeg File" />
+	<E K="Exp_Aperture" V="6.30000019073486" />
+	<E K="Exp_ColorSpace" V="sRGB IEC61966-2.1" />
+	<E K="Exp_Date" V="1739359535.430000" />
+	<E K="Exp_ExposureCompensation" V="0/1" />
+	<E K="Exp_ExposureMode" V="1" />
+	<E K="Exp_ExposureProg" V="1" />
+	<E K="Exp_FlashCompensation" V="0/1" />
+	<E K="Exp_FlashMode" V="16" />
+	<E K="Exp_FocalLength" V="55" />
+	<E K="Exp_Format" V="JPEG" />
+	<E K="Exp_MeteringMode" V="3" />
+	<E K="Exp_ShutterSpeed" V="0.00800000037997961" />
+	<E K="Exp_WhiteBalance" V="1" />
+	<E K="File_Size" V="2639818" />
+	<E K="Height" V="2500" />
+	<E K="ImageClassification" V="0" />
+	<E K="ISO" V="400" />
+	<E K="MultiShotCount" V="0" />
+	<E K="MultiShotSequenceID" V="--" />
+	<E K="MultiShotTotal" V="0" />
+	<E K="MultiShotType" V="4294967295" />
+	<E K="PixelHeight" V="0" />
+	<E K="PixelWidth" V="0" />
+	<E K="UUID" V="85EE7FED-6A09-452D-B99D-91E854A8C3F2" />
+	<E K="Version" V="1100" />
+	<E K="Width" V="1667" />
+	<VAR Engine="1200">
+		<E K="LastMetadataModificationDate" V="1739386511.155238" />
+		<E K="ProductID" V="FileSystemJpeg" />
+		<E K="SyncProcessCounter" V="1" />
+		<E K="UUID" V="EFC5807E-2B9E-4D16-8F6C-72FE85A9C815" />
+		<DL>
+			<E K="Basic_Rating" V="0" />
+			<E K="Brightness" V="0" />
+			<E K="BwBlue" V="0" />
+			<E K="BwCyan" V="0" />
+			<E K="BwDarkHue" V="0" />
+			<E K="BwDarkSaturation" V="0" />
+			<E K="BwEnabled" V="0" />
+			<E K="BwGreen" V="0" />
+			<E K="BwLightHue" V="0" />
+			<E K="BwLightSaturation" V="0" />
+			<E K="BwMagenta" V="0" />
+			<E K="BwRed" V="0" />
+			<E K="BwYellow" V="0" />
+			<E K="Clarity" V="0" />
+			<E K="ClarityMethod" V="3" />
+			<E K="ClarityStructure" V="0" />
+			<E K="CleanLongExposureAmount" V="0" />
+			<E K="CnrAmount" V="0" />
+			<E K="ColorBalance" V="1;1;1" />
+			<E K="ColorBalanceHighlight" V="1;1;1" />
+			<E K="ColorBalanceMidtone" V="1;1;1" />
+			<E K="ColorBalanceShadow" V="1;1;1" />
+			<E K="ColorCastCorrection" V="0" />
+			<E K="ColorCorrections" V="1,1,1,0,0,0,127,63,119,-28.822566986084,28.822566986084,-50,50,12,0,0,0,0;1,1,1,0,0,0,67,63,127,-21.9782791137695,21.9782791137695,-50,50,12,0,0,0,0;1,1,1,0,0,0,63,118,127,-22.3223114013672,22.3223114013672,-50,50,12,0,0,0,0;1,1,1,0,0,0,69,127,63,-38.9258460998535,38.9258460998535,-50,50,12,0,0,0,0;1,1,1,0,0,0,127,115,63,-13.5424394607544,13.5424394607544,-50,50,12,0,0,0,0;1,1,1,0,0,0,127,68,63,-18.4085693359375,18.4085693359375,-50,50,12,0,0,0,0;0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+			<E K="Contact_Creator" V="william kano" />
+			<E K="Content_Subjectcode" V="" />
+			<E K="Content_SupplementalCategories" V="" />
+			<E K="Contrast" V="0" />
+			<E K="Crop" V="0;0;0;0" />
+			<E K="CropOutsideImage" V="0" />
+			<E K="Exposure" V="0" />
+			<E K="FilmCurve" V="FileSystemJpeg-Auto.fcrv" />
+			<E K="FilmGrainAmount" V="0" />
+			<E K="FilmGrainDensity" V="0" />
+			<E K="FilmGrainGranularity" V="50" />
+			<E K="FilmGrainType" V="0" />
+			<E K="Flip" V="0" />
+			<E K="GeometryCanvasClipping" V="2" />
+			<E K="GeometryKeystoneAmount" V="100" />
+			<E K="GeometryKeystoneAspect" V="0" />
+			<E K="GeometryKeystoneFocalLength" V="1" />
+			<E K="GeometryKeystoneTiltX" V="0" />
+			<E K="GeometryKeystoneTiltY" V="0" />
+			<E K="GradationCurve" V="0,0;1,1" />
+			<E K="GradationCurveBlue" V="0,0;1,1" />
+			<E K="GradationCurveGreen" V="0,0;1,1" />
+			<E K="GradationCurveRed" V="0,0;1,1" />
+			<E K="GradationCurveY" V="0,0;1,1" />
+			<E K="Highlight" V="1;1;1;1" />
+			<E K="HighlightRecovery" V="0" />
+			<E K="ICCProfile" V="EMBEDDED" />
+			<E K="Image_DateCreated" V="20250212" />
+			<E K="Image_Scene" V="" />
+			<E K="LensAperture" V="6.30000019073486" />
+			<E K="LensChromaFringing" V="|||||" />
+			<E K="LensFocalLength" V="55" />
+			<E K="LensLCCDustRemovalEnabled" V="0" />
+			<E K="LensLccLightFalloff" V="0" />
+			<E K="LensLccLightFalloffAmount" V="0" />
+			<E K="LensOpticCenter" V="0|0" />
+			<E K="LensOpticCenterEnabled" V="0" />
+			<E K="LensShift" V="0" />
+			<E K="LensShiftDirection" V="0" />
+			<E K="LensShiftXY" V="4.01780295691212e-41;3.10916048462673e-09" />
+			<E K="LensTilt" V="0" />
+			<E K="LensTiltDirection" V="0" />
+			<E K="Midtone" V="0;0;0;0" />
+			<E K="Moire" V="0;8" />
+			<E K="NoiseDetailsAmount" V="50" />
+			<E K="NrAmount" V="0" />
+			<E K="PurpleFringingAmount" V="0" />
+			<E K="Rotation" V="0" />
+			<E K="Saturation" V="0" />
+			<E K="Shadow" V="0;0;0;0" />
+			<E K="ShadowRecovery" V="0" />
+			<E K="Status_CopyrightNotice" V="917 689-6279" />
+			<E K="SurfaceSmoothnessAmount" V="0" />
+			<E K="TargetHighlight" V="1;1;1;1" />
+			<E K="TargetShadow" V="0;0;0;0" />
+			<E K="TechnicalProcessingMethod" V="0" />
+			<E K="UsmAmount" V="0" />
+			<E K="UsmHaloControl" V="0" />
+			<E K="UsmRadius" V="0.800000011920929" />
+			<E K="UsmThreshold" V="1" />
+			<E K="Vignetting" V="0|1|0|1" />
+			<E K="WhiteBalance" V="1;1;1" />
+		</DL>
+		<AL />
+	</VAR>
+</IMG>
