@@ -19,7 +19,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona el repositorio:
     ```sh
-    git clone <URL_DEL_REPOSITORIO>
+    git clone [<URL_DEL_REPOSITORIO>](https://github.com/JonathanUrquiza/plegaria.git)
     ```
 
 2. Navega al directorio del proyecto:
@@ -27,7 +27,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
     cd plegaria-componentes
     ```
 
-3. Abre el archivo [index.html](http://_vscodecontentref_/1) en tu navegador para ver la página principal.
+3. Abre el archivo [index.html] en tu navegador para ver la página principal.
 
 ## Uso
 
