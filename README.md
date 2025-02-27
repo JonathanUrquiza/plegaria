@@ -19,7 +19,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona el repositorio:
     ```sh
-    git clone [<URL_DEL_REPOSITORIO>](https://github.com/JonathanUrquiza/plegaria.git)
+    git clone (https://github.com/JonathanUrquiza/plegaria.git)
     ```
 
 2. Navega al directorio del proyecto:
